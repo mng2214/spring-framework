@@ -4,10 +4,14 @@ import com.icode.model.Comment;
 import com.icode.proxy.CommentNotificationProxy;
 import com.icode.repository.CommentRepository;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.config.BeanDefinition;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
 //@AllArgsConstructor
+//@Scope("prototype")  // Will create different bean
+@Scope(BeanDefinition.SCOPE_PROTOTYPE)
 public class CommentService {
 
     private final CommentRepository commentRepository;
