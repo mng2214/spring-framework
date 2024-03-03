@@ -10,11 +10,13 @@
         <module name="Spring-02-Core-Wiring" />
         <module name="Spring-01-Core-IoC" />
         <module name="Spring-03-Core-DI" />
+        <module name="Spring-05-Core-BeanScope" />
         <module name="Spring-04-Core-Abstraction" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="21" />
+      <module name="Spring-04-Core-Abstraction1" target="21" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
