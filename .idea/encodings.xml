@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-01-Core-IoC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-02-Wiring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-02-Wiring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
   </component>
 </project>
