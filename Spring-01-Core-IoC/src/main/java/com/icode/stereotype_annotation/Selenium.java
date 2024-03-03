@@ -1,4 +1,4 @@
-package com.company.stereotype_annotation;
+package com.icode.stereotype_annotation;
 
 import org.springframework.stereotype.Component;
 

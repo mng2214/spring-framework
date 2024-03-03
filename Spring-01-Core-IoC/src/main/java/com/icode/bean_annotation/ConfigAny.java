@@ -1,4 +1,4 @@
-package com.company.bean_annotation;
+package com.icode.bean_annotation;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

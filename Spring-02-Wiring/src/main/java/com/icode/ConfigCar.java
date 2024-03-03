@@ -1,17 +1,19 @@
-package com.org;
+package com.icode;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class ConfigCar {
+
     @Bean
     Car car() {
         Car car = new Car();
         car.setMake("BMW");
         return car;
     }
-// Wiring - Direct Wiring
+
+//// Wiring - Direct Wiring
 //    @Bean
 //    Person person() {
 //        Person person = new Person();

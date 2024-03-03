@@ -1,4 +1,4 @@
-package com.org;
+package com.icode;
 
 import lombok.Getter;
 import lombok.Setter;

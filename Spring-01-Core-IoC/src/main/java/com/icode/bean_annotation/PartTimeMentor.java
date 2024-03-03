@@ -1,4 +1,4 @@
-package com.company.bean_annotation;
+package com.icode.bean_annotation;
 
 public class PartTimeMentor {
     public void createAccount (){
