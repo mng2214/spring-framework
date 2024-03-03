@@ -12,6 +12,9 @@
         <option value="$PROJECT_DIR$/Spring-01-Core-IoC/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-02-Wiring/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-03-Core-DI/pom.xml" />
+        <option value="$PROJECT_DIR$/../Spreing-04-Core-Abstraction/pom.xml" />
+        <option value="$PROJECT_DIR$/../Spring-04-Core-Abstraction/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-02-Core-Wiring/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
