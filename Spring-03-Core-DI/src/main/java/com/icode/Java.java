@@ -1,7 +1,6 @@
 package com.icode;
 
 import lombok.AllArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -20,7 +19,13 @@ public class Java {
 //        this.officeHours = officeHours;
 //    }
 
+
+
     public void getTeachingHours() {
-        System.out.println("Weekly teaching hours : " + (20 + officeHours.getHours()));
+        System.out.println("Weekly teaching hours : " + 20 + officeHours.getHours());
+    }
+
+    public void test(){
+
     }
 }
