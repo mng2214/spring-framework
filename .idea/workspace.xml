@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="05fe465f-a3d5-4d8b-849e-087972e6ea6d" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Spring-01-Core-IoC" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Spring-01-Core-IoC/src/main/java/com/company/bean_annotation/CydeoApp.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2d8hPyRNHAF7AoZfQIFPCmWYRkO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.App (1).executor": "Run",
+    "Application.App.executor": "Run",
+    "Application.AppRun.executor": "Run",
+    "Application.ConfigApp.executor": "Run",
+    "Application.CydeoApp.executor": "Run",
+    "Application.DealerApp.executor": "Run",
+    "Application.EmployeeService.executor": "Run",
+    "Application.com.bean_practice.AppRun.executor": "Run",
+    "Application.com.company.stereotype_annotation.CydeoApp.executor": "Run",
+    "Application.com.icode.CydeoApp.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/CYDEO/MyProjects/spring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-05-Core-BeanScope\src\main\java" />
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-04-Core-Abstraction\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ConfigApp">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.icode.App" />
+      <module name="Spring-04-Core-Abstraction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.icode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.icode.App" />
+      <module name="Spring-05-Core-BeanScope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.icode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.icode.AppRun" />
+      <module name="Spring-06-Review-IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.icode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.stereotype_annotations.ConfigApp" />
+      <module name="Spring-06-Review-IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.stereotype_annotations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.icode.service.EmployeeService" />
+      <module name="Spring-06-Review-IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.icode.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.bean_practice.AppRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bean_practice.AppRun" />
+      <module name="Spring-06-Review-IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bean_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="demo" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConfigApp" />
+        <item itemvalue="Application.com.bean_practice.AppRun" />
+        <item itemvalue="Application.AppRun" />
+        <item itemvalue="Application.EmployeeService" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05fe465f-a3d5-4d8b-849e-087972e6ea6d" name="Changes" comment="" />
+      <created>1709395592449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709395592449</updated>
+      <workItem from="1709395593493" duration="27638000" />
+      <workItem from="1709653250705" duration="8662000" />
+    </task>
+    <task id="LOCAL-00001" summary="spring IoC">
+      <option name="closed" value="true" />
+      <created>1709395986340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709395986340</updated>
+    </task>
+    <task id="LOCAL-00002" summary="spring IoC - Multiple beans - same type">
+      <option name="closed" value="true" />
+      <created>1709424887635</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709424887635</updated>
+    </task>
+    <task id="LOCAL-00003" summary="spring IoC - Multiple beans - Stereotype annotation">
+      <option name="closed" value="true" />
+      <created>1709426439590</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709426439590</updated>
+    </task>
+    <task id="LOCAL-00004" summary="spring IoC - Wiring">
+      <option name="closed" value="true" />
+      <created>1709429786831</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709429786831</updated>
+    </task>
+    <task id="LOCAL-00005" summary="spring DI">
+      <option name="closed" value="true" />
+      <created>1709431633197</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709431633197</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Spring Abstraction">
+      <option name="closed" value="true" />
+      <created>1709491763762</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709491763762</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Spring Abstraction">
+      <option name="closed" value="true" />
+      <created>1709495263208</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709495263208</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Spring Bean Scope">
+      <option name="closed" value="true" />
+      <created>1709498412919</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709498412919</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Spring Bean Scope">
+      <option name="closed" value="true" />
+      <created>1709498937362</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709498937362</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Spring Eager and Lazy">
+      <option name="closed" value="true" />
+      <created>1709499928880</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709499928880</updated>
+    </task>
+    <task id="LOCAL-00011" summary="IoC Practice">
+      <option name="closed" value="true" />
+      <created>1709776628960</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709776628960</updated>
+    </task>
+    <task id="LOCAL-00012" summary="IoC Practice">
+      <option name="closed" value="true" />
+      <created>1709776673098</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709776673098</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Spring-01-Core-IoC" />
+    </ignored-roots>
+    <MESSAGE value="spring IoC" />
+    <MESSAGE value="spring IoC - Multiple beans - same type" />
+    <MESSAGE value="spring IoC - Multiple beans - Stereotype annotation" />
+    <MESSAGE value="spring IoC - Wiring" />
+    <MESSAGE value="spring DI" />
+    <MESSAGE value="Spring Abstraction" />
+    <MESSAGE value="Spring Bean Scope" />
+    <MESSAGE value="Spring Eager and Lazy" />
+    <MESSAGE value="IoC Practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="IoC Practice" />
+  </component>
+</project>
