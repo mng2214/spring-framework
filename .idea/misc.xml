@@ -8,20 +8,18 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring-01-Core-IoC/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring-02-Wiring/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-03-Core-DI/pom.xml" />
-        <option value="$PROJECT_DIR$/../Spreing-04-Core-Abstraction/pom.xml" />
-        <option value="$PROJECT_DIR$/../Spring-04-Core-Abstraction/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-01-Core-IoC/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-06-Review-IoC/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-04-Core-Abstraction/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-02-Core-Wiring/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-05-Core-BeanScope/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring-04-Core-Abstraction/pom.xml" />
-        <option value="$PROJECT_DIR$/../Spring-06-Review-IoC/pom.xml" />
-        <option value="$PROJECT_DIR$/Spring-06-Review-IoC/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-04-Core-Abstraction1/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
 </project>
