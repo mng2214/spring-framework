@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05fe465f-a3d5-4d8b-849e-087972e6ea6d" name="Changes" comment="" />
+    <list default="true" id="05fe465f-a3d5-4d8b-849e-087972e6ea6d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/src/main/java/com/bean_practice/AnotherAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/src/main/java/com/bean_practice/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/src/main/java/com/bean_practice/AppRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/src/main/java/com/bean_practice/FullTimeEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/src/main/java/com/bean_practice/PartTimeEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/src/main/java/com/stereotype_annotations/ConfigApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/src/main/java/com/stereotype_annotations/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/src/main/java/com/stereotype_annotations/model/DataStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/src/main/java/com/stereotype_annotations/model/DevOps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/src/main/java/com/stereotype_annotations/model/ExtraHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/src/main/java/com/stereotype_annotations/model/MicroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/target/classes/com/bean_practice/AnotherAppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/target/classes/com/bean_practice/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/target/classes/com/bean_practice/AppRun.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/target/classes/com/bean_practice/FullTimeEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/target/classes/com/bean_practice/PartTimeEmployee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/target/classes/com/stereotype_annotations/ConfigApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/target/classes/com/stereotype_annotations/config/AppConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/target/classes/com/stereotype_annotations/model/DataStructure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/target/classes/com/stereotype_annotations/model/DevOps.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/target/classes/com/stereotype_annotations/model/ExtraHours.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/target/classes/com/stereotype_annotations/model/MicroService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-Review-IoC/task" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/icode/bean_annotation/ConfigAny.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/icode/bean_annotation/ConfigApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/icode/bean_annotation/CydeoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/icode/bean_annotation/FullTimeMentor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/icode/bean_annotation/PartTimeMentor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/icode/stereotype_annotation/ConfigCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/icode/stereotype_annotation/CydeoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/icode/stereotype_annotation/Java.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/icode/stereotype_annotation/RestAssured.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-01-Core-IoC/target/classes/com/icode/stereotype_annotation/Selenium.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -202,7 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709395592449</updated>
       <workItem from="1709395593493" duration="27638000" />
-      <workItem from="1709653250705" duration="9879000" />
+      <workItem from="1709653250705" duration="10415000" />
     </task>
     <task id="LOCAL-00001" summary="spring IoC">
       <option name="closed" value="true" />
