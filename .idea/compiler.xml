@@ -12,6 +12,7 @@
         <module name="Spring-03-Core-DI" />
         <module name="Spring-05-Core-BeanScope" />
         <module name="Spring-04-Core-Abstraction" />
+        <module name="Spring-06-Review-IoC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

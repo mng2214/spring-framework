@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/Spring-02-Core-Wiring/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-05-Core-BeanScope/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-04-Core-Abstraction/pom.xml" />
+        <option value="$PROJECT_DIR$/../Spring-06-Review-IoC/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
