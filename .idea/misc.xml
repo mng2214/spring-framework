@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/Spring-02-Core-Wiring/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-05-Core-BeanScope/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-04-Core-Abstraction1/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-00-Coupling/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
