@@ -1,0 +1,26 @@
+Spring Project Structure
+
+src/main/java : Contains application source code
+src/main/resources : Contains non java resources (Example HTML Code)
+src/test/java : Contains test code
+
+mvnw and mvnw.cmd : Maven Wrapper Scripts - Can be used to build your project even if you don't have Maven installed on you machine
+
+pom.xml :  Maven build specification
+
+DemoApplication.java : Spring Boot main class that bootstraps the project
+
+src/main/resources/application.properties - initially empty but offers a place where you can specify configuration properties (connection example)
+
+src/main/resources/static folder : Contains any static content (img, css, js, etc.)
+
+src/main/resources/templates folder : Contains template files that will be used to run the content to the browser (Thymeleaf) - data integration to html
+
+DemoApplicationTests - Simple test class ensures that Spring application connect loads successfully. You will add more tests to your developer application (unit test cases)
+
+
+
+
+
+
+
