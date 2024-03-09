@@ -9,14 +9,18 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.myCompany</groupId>
-    <artifactId>Spring-07-Spring-MVC-Controller</artifactId>
+    <artifactId>Spring-08-Spring-MVC-Model</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Spring-07-Spring-MVC-Controller</name>
-    <description>Spring-07-Spring-MVC-Controller</description>
+    <name>Spring-08-Spring-MVC-Model</name>
+    <description>Spring-08-Spring-MVC-Model</description>
     <properties>
         <java.version>17</java.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -27,16 +31,9 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-thymeleaf</artifactId>
             <scope>test</scope>
         </dependency>
     </dependencies>
