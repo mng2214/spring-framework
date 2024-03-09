@@ -1,0 +1,85 @@
+Spring Project Structure
+
+src/main/java : Contains application source code
+src/main/resources : Contains non java resources (Example HTML Code)
+src/test/java : Contains test code
+
+mvnw and mvnw.cmd : Maven Wrapper Scripts - Can be used to build your project
+                    even if you don't have Maven installed on you machine
+
+pom.xml :  Maven build specification
+
+DemoApplication.java : Spring Boot main class that bootstraps the project
+
+src/main/resources/application.properties - initially empty but offers a place where you can
+                                            specify configuration properties (connection example)
+
+src/main/resources/static folder : Contains any static content (img, css, js, etc.)
+
+src/main/resources/templates folder : Contains template files that will be used to
+                                      run the content to the browser (Thymeleaf) - data integration to html
+
+DemoApplicationTests - Simple test class ensures that Spring application connect loads successfully.
+                          You will add more tests to your developer application (unit test cases)
+
+POM.XML
+
+Build Specifications
+
+<parent> Specifies that your project has spring-boot-starter-parent as its parent POM. This parent POM provides
+        dependency management for several libraries commonly used in Spring projects. For those librarians
+        covered by the parent POMm you will not have to specify a version because it is inherited from the parent
+
+All dependencies have the work started in their artifact ID <artifactId>spring-boot-starter</artifactId> IQ !
+
+Your build file will be significantly smaller and easier to manage because you will not need
+to declare a dependency on every library you might need
+
+You are able to think of your dependencies in terms of what capabilities they provide,
+rather than their library names (web starter dependency)
+
+You are free from the burden of worrying about library versions. You only need to worry about whitch version of
+Spring Boot you are using
+
+Spring boot plugin : mvn spring-boot: run
+- Provides Maven goal that enables you to run the application using maven
+- Ensures that all dependency libraries are included within the executable JAR file
+
+
+----------
+
+BootStrapping the application:
+
+Because you will be running the application from an executable JAR it is important to have Main class that will
+be executed when that JAR file is run
+
+@SpringBootApplication : is a composite annotation the combines following annotations:
+
+@Target({ElementType.TYPE})
+@Retention(RetentionPolicy.RUNTIME)
+@Documented
+@Inherited
+@SpringBootConfiguration -> Designates this class as a config class. you can add Java based Spring Framework config to
+                            this class if you need to. This annotation is a specialized from the @Configuration annotation
+@EnableAutoConfiguration -> Enables Spring boot automatic configuration. It tells Spring Boot ti automatically configure any
+                            components that it think you will need
+@ComponentScan -> Enables component scanning. This let you declare other classes with @Component annotation.
+                  To have Spring automatically discover and register them as components in the Spring application context.
+
+
+main() : calls static run method on SpringApplication class that performs the actual bootstrapping of application,
+creating Spring application context. Two parameters passed to run() method are a configuration class and command line arguments
+
+ApplicationContext context = SpringApplication.run(DemoApplication.class, args);
+
+
+
+
+
+
+
+
+
+
+
+

@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/NOTES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/myNotes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/config/ProjectConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/proxy/CommentNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/proxy/CommentPushNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/repository/DBCommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/service/CommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/spring06springbootdemo/Spring06SpringBootDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/spring06springbootdemo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/test/java/com/mycompany/spring06springbootdemo/Spring06SpringBootDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/test/java/com/mycompany/spring06springbootdemo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-04-Core-Abstraction/src/main/java/com/icode/proxy/EmailCommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Core-Abstraction/src/main/java/com/icode/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/spring06springbootdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/DemoApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +53,22 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
     "Application.CydeoApp.executor": "Run",
     "Application.com.tightly_coupled.CydeoApp.executor": "Run",
+    "Maven.Spring-06-SpringBoot-Demo [org.apache.maven.plugins:maven-clean-plugin:3.3.2:help].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Spring06SpringBootDemoApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/CYDEO/MyProjects",
+    "last_opened_file_path": "E:/CYDEO/MyProjects/spring/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,12 +82,31 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-06-SpringBoot-Demo\src\main\java\com\mycompany" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\CYDEO\MyProjects\spring\Spring-06-SpringBoot-Demo" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-00-Coupling\src\main\java\com\exmapleCompany" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.mycompany" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.com.tightly_coupled.CydeoApp">
+  <component name="RunManager" selected="Spring Boot.Spring06SpringBootDemoApplication">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.App" />
+      <module name="Spring-06-SpringBoot-Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.loosely_coupled.CydeoApp" />
       <module name="Spring-00-Coupling" />
@@ -97,13 +135,14 @@
     </configuration>
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Spring-06-SpringBoot-Demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mycompany.spring06springbootdemo.DemoApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mycompany.DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.com.tightly_coupled.CydeoApp" />
         <item itemvalue="Application.CydeoApp" />
       </list>
@@ -127,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709783151989</updated>
       <workItem from="1709783154308" duration="262000" />
-      <workItem from="1709783421794" duration="5052000" />
+      <workItem from="1709783421794" duration="9169000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -177,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709947435797</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="spring project description">
+      <option name="closed" value="true" />
+      <created>1709949132157</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709949132157</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +234,7 @@
     <MESSAGE value="restructure project" />
     <MESSAGE value="Coupling Example" />
     <MESSAGE value="spring project creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring project creation" />
+    <MESSAGE value="spring project description" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring project description" />
   </component>
 </project>
