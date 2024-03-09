@@ -2,6 +2,7 @@ package com.mycompany;
 
 import com.mycompany.model.Comment;
 import com.mycompany.service.CommentService;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -11,7 +12,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class DemoApplication {
 
     public static void main(String[] args) {
-
 
         Comment comment = new Comment();
         comment.setAuthor("Artur");

@@ -5,21 +5,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/myNotes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/config/ProjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/proxy/CommentNotificationProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/proxy/CommentPushNotificationProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/repository/DBCommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/java/com/mycompany/MvcControllerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/java/com/mycompany/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/resources/static/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/resources/static/homeSample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/resources/static/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/test/java/com/mycompany/spring07springmvccontroller/Spring07SpringMvcControllerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-04-Core-Abstraction/src/main/java/com/icode/proxy/EmailCommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Core-Abstraction/src/main/java/com/icode/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/src/main/java/com/icode/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/src/main/java/com/icode/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/src/main/java/com/icode/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/src/main/java/com/icode/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/src/main/java/com/icode/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/src/main/java/com/icode/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/src/main/java/com/icode/proxy/CommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/src/main/java/com/icode/proxy/CommentNotificationProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/src/main/java/com/icode/proxy/CommentPushNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/src/main/java/com/icode/proxy/CommentPushNotificationProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/src/main/java/com/icode/proxy/EmailCommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/src/main/java/com/icode/proxy/EmailCommentNotificationProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/src/main/java/com/icode/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/src/main/java/com/icode/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/src/main/java/com/icode/repository/DBCommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/src/main/java/com/icode/repository/DBCommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/src/main/java/com/icode/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/src/main/java/com/icode/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/src/test/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/target/classes/com/icode/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/target/classes/com/icode/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/target/classes/com/icode/config/ProjectConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/target/classes/com/icode/config/ProjectConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/target/classes/com/icode/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/target/classes/com/icode/model/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/target/classes/com/icode/proxy/CommentNotificationProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/target/classes/com/icode/proxy/CommentNotificationProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/target/classes/com/icode/proxy/CommentPushNotificationProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/target/classes/com/icode/proxy/CommentPushNotificationProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/target/classes/com/icode/proxy/EmailCommentNotificationProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/target/classes/com/icode/proxy/EmailCommentNotificationProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/target/classes/com/icode/repository/CommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/target/classes/com/icode/repository/CommentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/target/classes/com/icode/repository/DBCommentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/target/classes/com/icode/repository/DBCommentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/target/classes/com/icode/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-1-Core-BeanScope/target/classes/com/icode/service/CommentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/src/main/java/com/bean_practice/AnotherAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/src/main/java/com/bean_practice/AnotherAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/src/main/java/com/bean_practice/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/src/main/java/com/bean_practice/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/src/main/java/com/bean_practice/AppRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/src/main/java/com/bean_practice/AppRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/src/main/java/com/bean_practice/FullTimeEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/src/main/java/com/bean_practice/FullTimeEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/src/main/java/com/bean_practice/PartTimeEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/src/main/java/com/bean_practice/PartTimeEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/src/main/java/com/stereotype_annotations/ConfigApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/src/main/java/com/stereotype_annotations/ConfigApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/src/main/java/com/stereotype_annotations/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/src/main/java/com/stereotype_annotations/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/src/main/java/com/stereotype_annotations/model/DataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/src/main/java/com/stereotype_annotations/model/DataStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/src/main/java/com/stereotype_annotations/model/DevOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/src/main/java/com/stereotype_annotations/model/DevOps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/src/main/java/com/stereotype_annotations/model/ExtraHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/src/main/java/com/stereotype_annotations/model/ExtraHours.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/src/main/java/com/stereotype_annotations/model/MicroService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/src/main/java/com/stereotype_annotations/model/MicroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/target/classes/com/bean_practice/AnotherAppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/target/classes/com/bean_practice/AnotherAppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/target/classes/com/bean_practice/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/target/classes/com/bean_practice/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/target/classes/com/bean_practice/AppRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/target/classes/com/bean_practice/AppRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/target/classes/com/bean_practice/FullTimeEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/target/classes/com/bean_practice/FullTimeEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/target/classes/com/bean_practice/PartTimeEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/target/classes/com/bean_practice/PartTimeEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/target/classes/com/stereotype_annotations/ConfigApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/target/classes/com/stereotype_annotations/ConfigApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/target/classes/com/stereotype_annotations/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/target/classes/com/stereotype_annotations/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/target/classes/com/stereotype_annotations/model/DataStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/target/classes/com/stereotype_annotations/model/DataStructure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/target/classes/com/stereotype_annotations/model/DevOps.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/target/classes/com/stereotype_annotations/model/DevOps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/target/classes/com/stereotype_annotations/model/ExtraHours.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/target/classes/com/stereotype_annotations/model/ExtraHours.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/target/classes/com/stereotype_annotations/model/MicroService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/target/classes/com/stereotype_annotations/model/MicroService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05.2-Review-IoC/task" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-2-Review-IoC/task" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/spring06springbootdemo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +80,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,8 +105,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.App.executor": "Run",
+    "Application.CommentService.executor": "Run",
     "Application.CydeoApp.executor": "Run",
     "Application.com.tightly_coupled.CydeoApp.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
     "Maven.Spring-06-SpringBoot-Demo [org.apache.maven.plugins:maven-clean-plugin:3.3.2:help].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
@@ -65,10 +118,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Spring06SpringBootDemoApplication.executor": "Run",
+    "Spring Boot.Spring07SpringMvcControllerApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/CYDEO/MyProjects/spring/Spring-06-SpringBoot-Demo/src/main/java/com/mycompany",
+    "last_opened_file_path": "E:/CYDEO/MyProjects/spring/Spring-07-Spring-MVC-Controller/src/main/resources/static",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,6 +137,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-07-Spring-MVC-Controller\src\main\resources\static" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-06-SpringBoot-Demo\src\main\java\com\mycompany" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -93,13 +148,26 @@
       <recent name="com.mycompany" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring06SpringBootDemoApplication">
+  <component name="RunManager" selected="Spring Boot.Spring07SpringMvcControllerApplication">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.App" />
       <module name="Spring-06-SpringBoot-Demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.mycompany.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommentService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.service.CommentService" />
+      <module name="Spring-06-SpringBoot-Demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,8 +208,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MvcControllerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-07-Spring-MVC-Controller" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mycompany.MvcControllerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CommentService" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.com.tightly_coupled.CydeoApp" />
         <item itemvalue="Application.CydeoApp" />
@@ -166,7 +242,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709783151989</updated>
       <workItem from="1709783154308" duration="262000" />
-      <workItem from="1709783421794" duration="9169000" />
+      <workItem from="1709783421794" duration="17262000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -224,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709949132157</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="spring project demo project">
+      <option name="closed" value="true" />
+      <created>1709953331896</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709953331896</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +319,7 @@
     <MESSAGE value="Coupling Example" />
     <MESSAGE value="spring project creation" />
     <MESSAGE value="spring project description" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring project description" />
+    <MESSAGE value="spring project demo project" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring project demo project" />
   </component>
 </project>

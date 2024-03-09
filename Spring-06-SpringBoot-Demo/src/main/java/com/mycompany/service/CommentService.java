@@ -3,12 +3,15 @@ package com.mycompany.service;
 import com.mycompany.model.Comment;
 import com.mycompany.proxy.CommentNotificationProxy;
 import com.mycompany.repository.CommentRepository;
-import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+
+import java.util.Arrays;
 
 @Component
 //@AllArgsConstructor
+
 public class CommentService {
 
     private final CommentRepository commentRepository;
