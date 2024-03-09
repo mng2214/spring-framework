@@ -13,9 +13,10 @@
     <file url="file://$PROJECT_DIR$/Spring-04-Core-Abstraction/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-04-Core-Abstraction1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-04-Core-Abstraction1/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Spring-05-Core-BeanScope/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Spring-06-Review-IoC/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/Spring-06-Review-IoC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-05.1-Core-BeanScope/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-05.1-Core-BeanScope/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-05.2-Review-IoC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-05.2-Review-IoC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -7,17 +7,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring-05-1-Core-BeanScope" />
+        <module name="Spring-06-SpringBoot-Demo" />
+        <module name="Spring-05-2-Review-IoC" />
         <module name="Spring-00-Coupling" />
         <module name="Spring-02-Core-Wiring" />
         <module name="Spring-01-Core-IoC" />
         <module name="Spring-03-Core-DI" />
         <module name="Spring-04-Core-Abstraction" />
-        <module name="Spring-05-Core-BeanScope" />
-        <module name="Spring-06-Review-IoC" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Spring-04-Core-Abstraction (1)" target="21" />
+      <module name="Spring-05.1-Core-BeanScope" target="21" />
+      <module name="Spring-05.2-Review-IoC" target="21" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-06-SpringBoot-Demo" options="-parameters" />
+    </option>
   </component>
 </project>

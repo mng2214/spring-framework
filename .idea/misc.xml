@@ -16,6 +16,9 @@
         <option value="$PROJECT_DIR$/Spring-05-Core-BeanScope/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-04-Core-Abstraction1/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-00-Coupling/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05.1-Core-BeanScope/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05.2-Review-IoC/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -25,7 +28,7 @@
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
