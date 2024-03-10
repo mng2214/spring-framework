@@ -1,10 +1,14 @@
 package com.mycompany.controller;
 
+import com.mycompany.model.Gender;
+import com.mycompany.model.Mentor;
+import com.mycompany.model.Student;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
@@ -29,6 +33,9 @@ public class StudentController {
 
         model.addAttribute("numbers", numbers);
 
+        Student student = new Student(1, "John", "Doe");
+        model.addAttribute("student", student);
+
         return "student/welcome";
     }
 
@@ -37,4 +44,6 @@ public class StudentController {
 
         return "student/welcome";
     }
+
+
 }
