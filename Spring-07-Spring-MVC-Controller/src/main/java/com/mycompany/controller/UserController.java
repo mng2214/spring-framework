@@ -11,4 +11,9 @@ public class UserController {
         return "user/userinfo.html";
     }
 
+    @RequestMapping("/sample")
+    public String user2() {
+        return "homeSample.html";
+    }
+
 }

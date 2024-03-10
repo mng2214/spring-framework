@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/java/com/mycompany/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/resources/static/user/userinfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/mycompany/MvcModelApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/mycompany/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/student/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/test/java/com/mycompany/Spring08SpringMvcModelApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/java/com/mycompany/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/java/com/mycompany/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-04-Core-Abstraction/src/main/java/com/icode/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-04-Core-Abstraction/src/main/java/com/icode/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/java/com/mycompany/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-07-Spring-MVC-Controller/src/main/java/com/mycompany/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/mycompany/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/java/com/mycompany/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/student/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-Spring-MVC-Model/src/main/resources/templates/student/welcome.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +48,8 @@
     "Application.App.executor": "Run",
     "Application.CommentService.executor": "Run",
     "Application.CydeoApp.executor": "Run",
+    "Application.StudentController.executor": "Run",
+    "Application.com.icode.App.executor": "Run",
     "Application.com.tightly_coupled.CydeoApp.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
     "Maven.Spring-06-SpringBoot-Demo [org.apache.maven.plugins:maven-clean-plugin:3.3.2:help].executor": "Run",
@@ -72,6 +60,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.MvcControllerApp.executor": "Run",
+    "Spring Boot.MvcModelApplication.executor": "Run",
     "Spring Boot.Spring06SpringBootDemoApplication.executor": "Run",
     "Spring Boot.Spring07SpringMvcControllerApplication.executor": "Run",
     "Spring Boot.Spring08SpringMvcModelApplication.executor": "Run",
@@ -114,7 +104,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring08SpringMvcModelApplication">
+  <component name="RunManager" selected="Spring Boot.MvcModelApplication">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.App" />
       <module name="Spring-06-SpringBoot-Demo" />
@@ -141,12 +131,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.loosely_coupled.CydeoApp" />
-      <module name="Spring-00-Coupling" />
+    <configuration name="StudentController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.controller.StudentController" />
+      <module name="Spring-08-Spring-MVC-Model" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.loosely_coupled.*" />
+          <option name="PATTERN" value="com.mycompany.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.icode.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.icode.App" />
+      <module name="Spring-04-Core-Abstraction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.icode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,20 +192,22 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.StudentController" />
+      <item itemvalue="Application.com.icode.App" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.com.tightly_coupled.CydeoApp" />
       <item itemvalue="Application.CommentService" />
-      <item itemvalue="Application.CydeoApp" />
-      <item itemvalue="Spring Boot.Spring06SpringBootDemoApplication" />
-      <item itemvalue="Spring Boot.Spring07SpringMvcControllerApplication" />
-      <item itemvalue="Spring Boot.Spring08SpringMvcModelApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.MvcControllerApp" />
+      <item itemvalue="Spring Boot.MvcModelApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StudentController" />
+        <item itemvalue="Application.com.icode.App" />
         <item itemvalue="Application.CommentService" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.com.tightly_coupled.CydeoApp" />
-        <item itemvalue="Application.CydeoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +229,8 @@
       <option name="presentableId" value="Default" />
       <updated>1709783151989</updated>
       <workItem from="1709783154308" duration="262000" />
-      <workItem from="1709783421794" duration="21786000" />
+      <workItem from="1709783421794" duration="22427000" />
+      <workItem from="1710085233268" duration="5298000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -298,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710020535409</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="spring MVC - Model">
+      <option name="closed" value="true" />
+      <created>1710024963542</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710024963542</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +325,7 @@
     <MESSAGE value="spring project description" />
     <MESSAGE value="spring project demo project" />
     <MESSAGE value="spring MVC - Controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring MVC - Controller" />
+    <MESSAGE value="spring MVC - Model" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring MVC - Model" />
   </component>
 </project>
