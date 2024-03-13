@@ -35,4 +35,5 @@ public class CarController {
         model.addAttribute("year", year);
         return "/car/car-info";
     }
+
 }

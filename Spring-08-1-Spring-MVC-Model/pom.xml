@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.myCompany</groupId>
-    <artifactId>Spring-08-Spring-MVC-Model</artifactId>
+    <artifactId>Spring-08-1-Spring-MVC-Model</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>Spring-08-Spring-MVC-Model</name>
     <description>Spring-08-Spring-MVC-Model</description>
