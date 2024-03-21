@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
+    <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="thymeleaf module added">
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/bootstrap/DataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -194,7 +196,7 @@
     <configuration name="Spring09SpringThymeleafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="Spring-09-Spring-Thymeleaf" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.Spring09SpringThymeleafApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.company.Spring09SpringThymeleafApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -244,7 +246,7 @@
       <workItem from="1710373894660" duration="3556000" />
       <workItem from="1710548031055" duration="4514000" />
       <workItem from="1710607970998" duration="6115000" />
-      <workItem from="1711063272784" duration="788000" />
+      <workItem from="1711063272784" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -382,7 +384,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710551555285</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="thymeleaf module added">
+      <option name="closed" value="true" />
+      <created>1711064090377</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1711064090377</updated>
+    </task>
+    <task id="LOCAL-00019" summary="thymeleaf module added">
+      <option name="closed" value="true" />
+      <created>1711064118677</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1711064118677</updated>
+    </task>
+    <task id="LOCAL-00020" summary="thymeleaf module added">
+      <option name="closed" value="true" />
+      <created>1711064184733</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711064184733</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,6 +425,7 @@
     <MESSAGE value="spring MVC - Model Final" />
     <MESSAGE value="spring review project" />
     <MESSAGE value="html review" />
-    <option name="LAST_COMMIT_MESSAGE" value="html review" />
+    <MESSAGE value="thymeleaf module added" />
+    <option name="LAST_COMMIT_MESSAGE" value="thymeleaf module added" />
   </component>
 </project>
