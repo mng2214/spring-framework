@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome</title>
+    <title>Register</title>
 </head>
 <body>
 <h2>Welcome new student</h2>
@@ -14,8 +14,20 @@
 <h3 th:text="${'Welcome '+students.get(0).firstName}"></h3>
 
 <!--links-->
+<a th:href="@{https://www.google.com/}">Google</a>
+<br>
+<a th:href="@{/student/welcome}">Link 1</a>
+<br>
 
+<!--link parameter -->
+<a th:href="@{/student/welcome(id=3)}">Link 2</a>
+<br>
+<a th:href="@{/student/welcome(id=${students.get(0).firstName})}">Welcome Link Parameter</a>
 
-
+<!--iteration-->
+<br>
+<ul>
+    <li th:each="student : ${students}" th:text="${student.getFirstName()}" >Student First Name</li>
+</ul>
 </body>
 </html>

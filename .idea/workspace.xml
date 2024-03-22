@@ -5,10 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/images/welcome-38249.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/welcome.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/bootstrap/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-08-1-Spring-MVC-Model/src/main/resources/templates/mentor/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-08-1-Spring-MVC-Model/src/main/resources/templates/mentor/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +94,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/CYDEO/MyProjects/spring",
+    "last_opened_file_path": "E:/CYDEO/MyProjects/spring/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,14 +110,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\templates\student" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-07-Spring-MVC-Controller\src\main\resources\static" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-06-SpringBoot-Demo\src\main\java\com\mycompany" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\templates" />
-      <recent name="E:\CYDEO\MyProjects\spring\Spring-06-SpringBoot-Demo\src\main\resources\templates" />
-      <recent name="E:\CYDEO\MyProjects\spring\Spring-06-SpringBoot-Demo" />
-      <recent name="E:\CYDEO\MyProjects\spring\Spring-00-Coupling\src\main\java\com\exmapleCompany" />
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\static\css\bootstrap" />
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\static\css" />
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\static\js" />
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\static\images" />
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\static" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.mycompany" />
@@ -108,7 +134,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring09SpringThymeleafApplication">
+  <component name="RunManager" selected="Spring Boot.MvcModelApplication">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.App" />
       <module name="Spring-06-SpringBoot-Demo" />
@@ -248,7 +274,7 @@
       <workItem from="1710373894660" duration="3556000" />
       <workItem from="1710548031055" duration="4514000" />
       <workItem from="1710607970998" duration="6115000" />
-      <workItem from="1711063272784" duration="2655000" />
+      <workItem from="1711063272784" duration="6440000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -418,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711064725385</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="thymeleaf module - thymeleaf review">
+      <option name="closed" value="true" />
+      <created>1711065942496</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711065942496</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,6 +471,7 @@
     <MESSAGE value="html review" />
     <MESSAGE value="thymeleaf module added" />
     <MESSAGE value="thymeleaf module - models added" />
-    <option name="LAST_COMMIT_MESSAGE" value="thymeleaf module - models added" />
+    <MESSAGE value="thymeleaf module - thymeleaf review" />
+    <option name="LAST_COMMIT_MESSAGE" value="thymeleaf module - thymeleaf review" />
   </component>
 </project>
