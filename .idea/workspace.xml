@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="thymeleaf module added">
-      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/bootstrap/DataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/model/Student.java" afterDir="false" />
+    <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/bootstrap/DataGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,6 +66,7 @@
     "Spring Boot.Spring06SpringBootDemoApplication.executor": "Run",
     "Spring Boot.Spring07SpringMvcControllerApplication.executor": "Run",
     "Spring Boot.Spring08SpringMvcModelApplication.executor": "Run",
+    "Spring Boot.Spring09SpringThymeleafApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -89,6 +90,7 @@
       <recent name="E:\CYDEO\MyProjects\spring\Spring-06-SpringBoot-Demo\src\main\java\com\mycompany" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\templates" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-06-SpringBoot-Demo\src\main\resources\templates" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-06-SpringBoot-Demo" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-00-Coupling\src\main\java\com\exmapleCompany" />
@@ -106,7 +108,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AppRunner">
+  <component name="RunManager" selected="Spring Boot.Spring09SpringThymeleafApplication">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.App" />
       <module name="Spring-06-SpringBoot-Demo" />
@@ -246,7 +248,7 @@
       <workItem from="1710373894660" duration="3556000" />
       <workItem from="1710548031055" duration="4514000" />
       <workItem from="1710607970998" duration="6115000" />
-      <workItem from="1711063272784" duration="1438000" />
+      <workItem from="1711063272784" duration="2655000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -408,7 +410,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711064184733</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="thymeleaf module - models added">
+      <option name="closed" value="true" />
+      <created>1711064725385</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711064725385</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,6 +436,7 @@
     <MESSAGE value="spring review project" />
     <MESSAGE value="html review" />
     <MESSAGE value="thymeleaf module added" />
-    <option name="LAST_COMMIT_MESSAGE" value="thymeleaf module added" />
+    <MESSAGE value="thymeleaf module - models added" />
+    <option name="LAST_COMMIT_MESSAGE" value="thymeleaf module - models added" />
   </component>
 </project>
