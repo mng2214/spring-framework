@@ -3,8 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome</title>
+
+    <!--    connect to bootstrap from local-->
+
+    <link th:href="@{/css/bootstrap/css/bootstrap.min.css}"/>
+
+    <!--    connect to js from local-->
+
+    <script th:src="@{/js/jquery-3.3.1.min.js}"></script>
+
+    <!--    connect to css from local-->
+
+    <link th:href="@{/css/custom.css}" rel="stylesheet" media="screen">
+
 </head>
 <body>
-<h2>Welcome new student</h2>
+
+<h2 class="display-1 text-danger">Welcome</h2>
+
+<h2 class="cydeo">My Custom class</h2>
+
+<img th:src="@{/images/welcome-38249.png}"  alt="img"/>
+
 </body>
 </html>
