@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/fragments/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/student/welcome.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -249,7 +252,7 @@
       <workItem from="1710373894660" duration="3556000" />
       <workItem from="1710548031055" duration="4514000" />
       <workItem from="1710607970998" duration="6115000" />
-      <workItem from="1711063272784" duration="7900000" />
+      <workItem from="1711063272784" duration="13847000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -435,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711069745182</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="binding">
+      <option name="closed" value="true" />
+      <created>1711071239891</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1711071239891</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,6 +467,7 @@
     <MESSAGE value="thymeleaf module - models added" />
     <MESSAGE value="thymeleaf module - thymeleaf review" />
     <MESSAGE value="static added" />
-    <option name="LAST_COMMIT_MESSAGE" value="static added" />
+    <MESSAGE value="binding" />
+    <option name="LAST_COMMIT_MESSAGE" value="binding" />
   </component>
 </project>

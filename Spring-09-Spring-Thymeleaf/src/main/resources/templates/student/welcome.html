@@ -6,7 +6,7 @@
 
     <!--    connect to bootstrap from local-->
 
-    <link th:href="@{/css/bootstrap/css/bootstrap.min.css}"/>
+    <link th:href="@{/css/bootstrap/css/bootstrap.min.css}" rel="stylesheet" media="screen"/>
 
     <!--    connect to js from local-->
 
@@ -24,6 +24,9 @@
 <h2 class="cydeo">My Custom class</h2>
 
 <img th:src="@{/images/welcome-38249.png}"  alt="img"/>
+
+<div th:replace="~{/fragments/index :: main-menu}"></div>
+<div th:replace="~{/fragments/index :: footer-menu}"></div>
 
 </body>
 </html>
