@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/controller/MentorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/model/Mentor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/mentor/confirmation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/mentor/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/java/com/company/controller/StudentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -254,7 +248,7 @@
       <workItem from="1710373894660" duration="3556000" />
       <workItem from="1710548031055" duration="4514000" />
       <workItem from="1710607970998" duration="6115000" />
-      <workItem from="1711063272784" duration="26674000" />
+      <workItem from="1711063272784" duration="29108000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -456,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711154734300</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Thymeleaf">
+      <option name="closed" value="true" />
+      <created>1711586338940</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1711586338940</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
