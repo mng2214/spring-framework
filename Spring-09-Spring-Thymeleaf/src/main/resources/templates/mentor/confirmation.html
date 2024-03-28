@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Submitted</title>
+
+
+</head>
+<body>
+
+<h2 th:text="${'Thank you ' + mentor.firstName}"></h2>
+<br>
+<h2>YOUR FORM IS SUBMITTED</h2>
+
+<h3 th:text="${mentor.firstName}"></h3>
+<br>
+<h3 th:text="${mentor.lastName}"></h3>
+<br>
+<h3 th:text="${mentor.email}"></h3>
+<br>
+<h3 th:text="${mentor.gender}"></h3>
+<br>
+<h3 th:text="${mentor.graduated}"></h3>
+<br>
+<h3 th:text="${mentor.batch}"></h3>
+<br>
+<h3 th:text="${mentor.company}"></h3>
+<br>
+
+</body>
+</html>
