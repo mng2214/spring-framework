@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="structure update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +49,8 @@
     "Application.com.tightly_coupled.CydeoApp.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
     "Maven.Spring-06-SpringBoot-Demo [org.apache.maven.plugins:maven-clean-plugin:3.3.2:help].executor": "Run",
+    "Maven.Spring-09-Spring-Thymeleaf [compile].executor": "Run",
+    "Maven.Spring-09-Spring-Thymeleaf [install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -73,7 +73,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
@@ -203,12 +203,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring10OrmTableCreationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-10-ORM-TableCreation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emp.spring10ormtablecreation.Spring10OrmTableCreationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AppRunner" />
       <item itemvalue="Application.StudentController" />
       <item itemvalue="Application.com.icode.App" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.CommentService" />
+      <item itemvalue="Spring Boot.Spring10OrmTableCreationApplication" />
       <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.MvcControllerApp" />
@@ -253,6 +261,7 @@
       <workItem from="1711847591412" duration="4946000" />
       <workItem from="1712780815521" duration="1702000" />
       <workItem from="1713143990779" duration="1832000" />
+      <workItem from="1713150775167" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -470,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711591548522</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="orm module created">
+      <option name="closed" value="true" />
+      <created>1713150805796</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1713150805796</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,6 +511,7 @@
     <MESSAGE value="binding" />
     <MESSAGE value="Thymeleaf" />
     <MESSAGE value="structure update" />
-    <option name="LAST_COMMIT_MESSAGE" value="structure update" />
+    <MESSAGE value="orm module created" />
+    <option name="LAST_COMMIT_MESSAGE" value="orm module created" />
   </component>
 </project>

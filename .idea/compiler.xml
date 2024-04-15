@@ -8,9 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-05-1-Core-BeanScope" />
-        <module name="Spring-09-Spring-Thymeleaf" />
-        <module name="Spring-06-SpringBoot-Demo" />
-        <module name="Spring-05-2-Review-IoC" />
         <module name="Spring-07-Spring-MVC-Controller" />
         <module name="Spring-00-Coupling" />
         <module name="Spring-02-Core-Wiring" />
@@ -18,6 +15,10 @@
         <module name="Spring-01-Core-IoC" />
         <module name="Spring-03-Core-DI" />
         <module name="Spring-04-Core-Abstraction" />
+        <module name="Spring-09-Spring-Thymeleaf" />
+        <module name="Spring-06-SpringBoot-Demo" />
+        <module name="Spring-05-2-Review-IoC" />
+        <module name="Spring-10-ORM-TableCreation" />
         <module name="Spring-08-1-Spring-MVC-Model" />
       </profile>
     </annotationProcessing>
@@ -33,6 +34,7 @@
       <module name="Spring-07-Spring-MVC-Controller" options="-parameters" />
       <module name="Spring-08-1-Spring-MVC-Model" options="-parameters" />
       <module name="Spring-09-Spring-Thymeleaf" options="-parameters" />
+      <module name="Spring-10-ORM-TableCreation" options="-parameters" />
     </option>
   </component>
 </project>
