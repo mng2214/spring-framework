@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="" />
+    <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +23,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -64,6 +72,7 @@
     "Spring Boot.Spring07SpringMvcControllerApplication.executor": "Run",
     "Spring Boot.Spring08SpringMvcModelApplication.executor": "Run",
     "Spring Boot.Spring09SpringThymeleafApplication.executor": "Run",
+    "Spring Boot.Spring10OrmTableCreationApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -79,6 +88,12 @@
     "run.configurations.included.in.services": "true",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora_aws",
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -108,7 +123,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring09SpringThymeleafApplication">
+  <component name="RunManager" selected="Spring Boot.Spring10OrmTableCreationApplication">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mycompany.App" />
       <module name="Spring-06-SpringBoot-Demo" />
@@ -261,7 +276,7 @@
       <workItem from="1711847591412" duration="4946000" />
       <workItem from="1712780815521" duration="1702000" />
       <workItem from="1713143990779" duration="1832000" />
-      <workItem from="1713150775167" duration="356000" />
+      <workItem from="1713150775167" duration="7426000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -487,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713150805796</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="orm module created">
+      <option name="closed" value="true" />
+      <created>1713151152728</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1713151152728</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
