@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/CreatedAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/DebitAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/enums/Gender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/bootstrap/DataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/repository/CarImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/repository/CarRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/spring10ormtablecreation/Spring10OrmTableCreationApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/Spring10OrmTableCreationApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/schema2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -282,7 +276,7 @@
       <workItem from="1711847591412" duration="4946000" />
       <workItem from="1712780815521" duration="1702000" />
       <workItem from="1713143990779" duration="1832000" />
-      <workItem from="1713150775167" duration="19654000" />
+      <workItem from="1713150775167" duration="21671000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -524,7 +518,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713189518882</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Orm basics">
+      <option name="closed" value="true" />
+      <created>1713324266323</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1713324266323</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Orm basics">
+      <option name="closed" value="true" />
+      <created>1713324596838</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1713324596838</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -550,6 +560,7 @@
     <MESSAGE value="structure update" />
     <MESSAGE value="orm module created" />
     <MESSAGE value="db connected" />
-    <option name="LAST_COMMIT_MESSAGE" value="db connected" />
+    <MESSAGE value="Orm basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Orm basics" />
   </component>
 </project>
