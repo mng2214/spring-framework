@@ -1,7 +1,9 @@
 package com.emp.entity;
 
-import java.math.BigDecimal;
+import jakarta.persistence.Entity;
 
+import java.math.BigDecimal;
+@Entity
 public class CreatedAccount extends Account {
     BigDecimal creditLimit;
 }
