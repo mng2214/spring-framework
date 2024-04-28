@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/Spring-08-1-Spring-MVC-Model/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-10-ORM-TableCreation/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -34,7 +35,6 @@
         <option value="$PROJECT_DIR$/Spring-04-Core-Abstraction1/pom.xml" />
       </set>
     </option>
-    <option name="workspaceImportForciblyTurnedOn" value="true" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

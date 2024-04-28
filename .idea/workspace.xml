@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/bootstrap/DataGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/repository/CarImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/repository/CarRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/Spring11OrmMappingOneToOneApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/bootstrap/DataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/test/java/com/emp/Spring11OrmMappingOneToOneApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/java/com/emp/entity/Account.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -31,6 +45,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mng2214&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mng2214/spring-framework.git&quot;,
+    &quot;accountId&quot;: &quot;e865e9af-043a-4341-afda-325f71476def&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -72,10 +98,11 @@
     "Spring Boot.Spring08SpringMvcModelApplication.executor": "Run",
     "Spring Boot.Spring09SpringThymeleafApplication.executor": "Run",
     "Spring Boot.Spring10OrmTableCreationApplication.executor": "Run",
+    "Spring Boot.Spring11OrmMappingOneToOneApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/CYDEO/MyProjects/spring/Spring-09-Spring-Thymeleaf/src/main/resources/static/css/bootstrap/css",
+    "last_opened_file_path": "E:/CYDEO/MyProjects/BuildApiPractice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -123,20 +150,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring10OrmTableCreationApplication">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.App" />
-      <module name="Spring-06-SpringBoot-Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mycompany.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.Spring11OrmMappingOneToOneApplication">
     <configuration name="AppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AppRunner" />
       <module name="Spring-08-2-Review-Project" />
@@ -225,32 +239,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring11OrmMappingOneToOneApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Spring-11-ORM-Mapping-One-To-One" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emp.Spring11OrmMappingOneToOneApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.emp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AppRunner" />
       <item itemvalue="Application.StudentController" />
       <item itemvalue="Application.com.icode.App" />
-      <item itemvalue="Application.App" />
       <item itemvalue="Application.CommentService" />
       <item itemvalue="Spring Boot.Spring10OrmTableCreationApplication" />
       <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
       <item itemvalue="Spring Boot.MvcControllerApp" />
       <item itemvalue="Spring Boot.MvcModelApplication" />
+      <item itemvalue="Spring Boot.Spring11OrmMappingOneToOneApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Spring11OrmMappingOneToOneApplication" />
         <item itemvalue="Application.AppRunner" />
         <item itemvalue="Application.StudentController" />
         <item itemvalue="Application.com.icode.App" />
         <item itemvalue="Application.CommentService" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -276,7 +304,14 @@
       <workItem from="1711847591412" duration="4946000" />
       <workItem from="1712780815521" duration="1702000" />
       <workItem from="1713143990779" duration="1832000" />
-      <workItem from="1713150775167" duration="21671000" />
+      <workItem from="1713150775167" duration="26558000" />
+      <workItem from="1713642422036" duration="315000" />
+      <workItem from="1713642751747" duration="146000" />
+      <workItem from="1713642912773" duration="90000" />
+      <workItem from="1713643099580" duration="87000" />
+      <workItem from="1713643203482" duration="76000" />
+      <workItem from="1713643337254" duration="318000" />
+      <workItem from="1714321716504" duration="4576000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -534,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713324596838</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Orm basics">
+      <option name="closed" value="true" />
+      <created>1713326433353</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1713326433353</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

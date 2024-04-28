@@ -19,6 +19,7 @@
         <module name="Spring-06-SpringBoot-Demo" />
         <module name="Spring-05-2-Review-IoC" />
         <module name="Spring-10-ORM-TableCreation" />
+        <module name="Spring-11-ORM-Mapping-One-To-One" />
         <module name="Spring-08-1-Spring-MVC-Model" />
       </profile>
     </annotationProcessing>
@@ -35,6 +36,7 @@
       <module name="Spring-08-1-Spring-MVC-Model" options="-parameters" />
       <module name="Spring-09-Spring-Thymeleaf" options="-parameters" />
       <module name="Spring-10-ORM-TableCreation" options="-parameters" />
+      <module name="Spring-11-ORM-Mapping-One-To-One" options="-parameters" />
     </option>
   </component>
 </project>
