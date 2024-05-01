@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/entity/Region.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/bootstrap/DataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/entity/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/entity/Department.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/entity/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/entity/Region.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +295,7 @@
       <workItem from="1713643099580" duration="87000" />
       <workItem from="1713643203482" duration="76000" />
       <workItem from="1713643337254" duration="318000" />
-      <workItem from="1714321716504" duration="11776000" />
+      <workItem from="1714321716504" duration="15220000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -571,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714326394738</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="module 11 orm &#10;mapping added">
+      <option name="closed" value="true" />
+      <created>1714344169068</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1714344169068</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,7 +612,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/bootstrap/DataGenerator.java</url>
-          <line>19</line>
+          <line>20</line>
           <properties field="employeeRepository" class="com.emp.bootstrap.DataGenerator" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
