@@ -5,10 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/Spring12OrmOneToOneManyToManyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/bootstrap/DataGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/model/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/model/PaymentDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/repository/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/test/java/com/inc/Spring12OrmOneToOneManyToManyApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/bootstrap/DataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/entity/Region.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-11-ORM-Mapping-One-To-One/src/main/java/com/emp/entity/Region.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +97,7 @@
     "Spring Boot.Spring09SpringThymeleafApplication.executor": "Run",
     "Spring Boot.Spring10OrmTableCreationApplication.executor": "Run",
     "Spring Boot.Spring11OrmMappingOneToOneApplication.executor": "Run",
+    "Spring Boot.Spring12OrmOneToOneManyToManyApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -134,7 +149,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring11OrmMappingOneToOneApplication">
+  <component name="RunManager" selected="Spring Boot.Spring12OrmOneToOneManyToManyApplication">
     <configuration name="AppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AppRunner" />
       <module name="Spring-08-2-Review-Project" />
@@ -236,11 +251,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring12OrmOneToOneManyToManyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-12-ORM-OneToOne-ManyToMany" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inc.Spring12OrmOneToOneManyToManyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AppRunner" />
       <item itemvalue="Application.StudentController" />
       <item itemvalue="Application.com.icode.App" />
       <item itemvalue="Application.CommentService" />
+      <item itemvalue="Spring Boot.Spring12OrmOneToOneManyToManyApplication" />
       <item itemvalue="Spring Boot.Spring10OrmTableCreationApplication" />
       <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
@@ -295,7 +318,7 @@
       <workItem from="1713643099580" duration="87000" />
       <workItem from="1713643203482" duration="76000" />
       <workItem from="1713643337254" duration="318000" />
-      <workItem from="1714321716504" duration="15220000" />
+      <workItem from="1714321716504" duration="16765000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -577,7 +600,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714344169068</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="module 11 orm &#10;mapping added">
+      <option name="closed" value="true" />
+      <created>1714526407178</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1714526407178</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
