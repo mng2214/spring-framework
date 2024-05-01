@@ -44,12 +44,14 @@ public class DataGenerator implements CommandLineRunner {
 
         Customer customer1 = new Customer("123 Main St.", "John.Doe@gmail.com", "John", "Doe", "jdoe");
 
+        payment1.setCustomer(customer1);
+        payment2.setCustomer(customer1);
+        customerRepository.save(customer1);
 
         payment1.setMerchant(merchant1);
         payment2.setMerchant(merchant1);
-
         merchantRepository.save(merchant1);
-        customerRepository.save(customer1);
+
         paymentRepository.save(payment1);
         paymentRepository.save(payment2);
 

@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/model/Merchant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/repository/MerchantRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/repository/ItemRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/bootstrap/DataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/model/Payment.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +306,7 @@
       <workItem from="1713643203482" duration="76000" />
       <workItem from="1713643337254" duration="318000" />
       <workItem from="1714321716504" duration="16765000" />
-      <workItem from="1714528232102" duration="3449000" />
+      <workItem from="1714528232102" duration="4417000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -606,7 +604,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714528262124</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="module 12 orm &#10;one to many">
+      <option name="closed" value="true" />
+      <created>1714531706295</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1714531706295</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +640,8 @@
     <MESSAGE value="db connected" />
     <MESSAGE value="Orm basics" />
     <MESSAGE value="module 11 orm &#10;mapping added" />
-    <option name="LAST_COMMIT_MESSAGE" value="module 11 orm &#10;mapping added" />
+    <MESSAGE value="module 12 orm &#10;one to many" />
+    <option name="LAST_COMMIT_MESSAGE" value="module 12 orm &#10;one to many" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
