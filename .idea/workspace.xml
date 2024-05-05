@@ -5,28 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/Spring13OrmCinemaLabApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/enums/MovieState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/enums/MovieType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/model/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/model/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/model/MovieCinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/resources/data.txt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/resources/schema.txt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/test/java/com/inc/Spring13OrmCinemaLabApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/entity/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/entity/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/mentor/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/mentor/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/entity/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/entity/Cinema.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -336,7 +319,7 @@
       <workItem from="1714528232102" duration="6195000" />
       <workItem from="1714583740053" duration="5157000" />
       <workItem from="1714614577953" duration="590000" />
-      <workItem from="1714658320207" duration="6689000" />
+      <workItem from="1714658320207" duration="10096000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -658,7 +641,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714533724898</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="CinemaLab added">
+      <option name="closed" value="true" />
+      <created>1714869214235</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1714869214235</updated>
+    </task>
+    <task id="LOCAL-00042" summary="CinemaLab cinema genre movie MovieCinema BaseEntity added">
+      <option name="closed" value="true" />
+      <created>1714872554572</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1714872554572</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,7 +686,9 @@
     <MESSAGE value="Orm basics" />
     <MESSAGE value="module 11 orm &#10;mapping added" />
     <MESSAGE value="module 12 orm &#10;one to many" />
-    <option name="LAST_COMMIT_MESSAGE" value="module 12 orm &#10;one to many" />
+    <MESSAGE value="CinemaLab added" />
+    <MESSAGE value="CinemaLab cinema genre movie MovieCinema BaseEntity added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CinemaLab cinema genre movie MovieCinema BaseEntity added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
