@@ -1,13 +1,13 @@
-package com.inc.model;
+package com.inc.entity;
 
 import com.inc.enums.MovieType;
 import com.inc.enums.MovieState;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 @Data
@@ -26,16 +26,10 @@ public class Movie extends BaseEntity {
     private MovieState movieState;
     private BigDecimal price;
 
-    @ManyToOne
-    private MovieCinema movieCinema;
+    @ManyToMany
+    private List<Genre> genreList;
 
-    public Movie(String name, LocalDate releaseDate, int duration, String summary, MovieType movieType, MovieState movieState, BigDecimal price) {
-        this.name = name;
-        this.releaseDate = releaseDate;
-        this.duration = duration;
-        this.summary = summary;
-        this.movieType = movieType;
-        this.movieState = movieState;
-        this.price = price;
-    }
+//    @ManyToOne
+//    private MovieCinema movieCinema;
+
 }
