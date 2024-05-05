@@ -17,19 +17,21 @@ public class Movie extends BaseEntity {
     private String name;
     @Column(columnDefinition = "DATE")
     private LocalDate releaseDate;
-    private int duration;
+    private Integer duration;
     @Column(columnDefinition = "text")
     private String summary;
     @Enumerated(EnumType.STRING)
-    private MovieType movieType;
+    private MovieType type;
     @Enumerated(EnumType.STRING)
-    private MovieState movieState;
+    private MovieState state;
     private BigDecimal price;
 
+
     @ManyToMany
+    @JoinTable(name = "movie_genre_rel",
+            joinColumns = @JoinColumn(name="movie_id"),
+            inverseJoinColumns = @JoinColumn(name = "genre_id"))
     private List<Genre> genreList;
 
-//    @ManyToOne
-//    private MovieCinema movieCinema;
 
 }
