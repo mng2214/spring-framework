@@ -5,9 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/Spring13OrmCinemaLabApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/enums/MovieState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/enums/MovieType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/model/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/model/MovieCinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/resources/data.txt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/resources/schema.txt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/test/java/com/inc/Spring13OrmCinemaLabApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/bootstrap/DataGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-SpringBoot-Demo/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/mentor/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-09-Spring-Thymeleaf/src/main/resources/templates/mentor/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -54,60 +73,62 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AppRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CommentService.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CydeoApp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentController.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.icode.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.tightly_coupled.CydeoApp.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Maven.Spring-06-SpringBoot-Demo [org.apache.maven.plugins:maven-clean-plugin:3.3.2:help].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Spring-09-Spring-Thymeleaf [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Spring-09-Spring-Thymeleaf [install].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.MvcControllerApp.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MvcModelApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring06SpringBootDemoApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring07SpringMvcControllerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring08SpringMvcModelApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring09SpringThymeleafApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring10OrmTableCreationApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring11OrmMappingOneToOneApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.Spring12OrmOneToOneManyToManyApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/CYDEO/MyProjects/BuildApiPractice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.AppRunner.executor": "Run",
+    "Application.CommentService.executor": "Run",
+    "Application.CydeoApp.executor": "Run",
+    "Application.StudentController.executor": "Run",
+    "Application.com.icode.App.executor": "Run",
+    "Application.com.tightly_coupled.CydeoApp.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Maven.Spring-06-SpringBoot-Demo [org.apache.maven.plugins:maven-clean-plugin:3.3.2:help].executor": "Run",
+    "Maven.Spring-09-Spring-Thymeleaf [compile].executor": "Run",
+    "Maven.Spring-09-Spring-Thymeleaf [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.MvcControllerApp.executor": "Run",
+    "Spring Boot.MvcModelApplication.executor": "Run",
+    "Spring Boot.Spring06SpringBootDemoApplication.executor": "Run",
+    "Spring Boot.Spring07SpringMvcControllerApplication.executor": "Run",
+    "Spring Boot.Spring08SpringMvcModelApplication.executor": "Run",
+    "Spring Boot.Spring09SpringThymeleafApplication.executor": "Run",
+    "Spring Boot.Spring10OrmTableCreationApplication.executor": "Run",
+    "Spring Boot.Spring11OrmMappingOneToOneApplication.executor": "Run",
+    "Spring Boot.Spring12OrmOneToOneManyToManyApplication.executor": "Run",
+    "Spring Boot.Spring13OrmCinemaLabApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/CYDEO/MyProjects/spring/Spring-13-ORM-CinemaLab/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql_aurora_aws&quot;,
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora_aws",
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-13-ORM-CinemaLab\src\main\resources" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\static\css\bootstrap\css" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\templates\student" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-07-Spring-MVC-Controller\src\main\resources\static" />
@@ -134,7 +155,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring12OrmOneToOneManyToManyApplication">
+  <component name="RunManager" selected="Spring Boot.Spring13OrmCinemaLabApplication">
     <configuration name="AppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AppRunner" />
       <module name="Spring-08-2-Review-Project" />
@@ -243,11 +264,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring13OrmCinemaLabApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-13-ORM-CinemaLab" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.inc.Spring13OrmCinemaLabApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.AppRunner" />
       <item itemvalue="Application.StudentController" />
       <item itemvalue="Application.com.icode.App" />
       <item itemvalue="Application.CommentService" />
+      <item itemvalue="Spring Boot.Spring13OrmCinemaLabApplication" />
       <item itemvalue="Spring Boot.Spring12OrmOneToOneManyToManyApplication" />
       <item itemvalue="Spring Boot.Spring10OrmTableCreationApplication" />
       <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
@@ -304,7 +333,10 @@
       <workItem from="1713643203482" duration="76000" />
       <workItem from="1713643337254" duration="318000" />
       <workItem from="1714321716504" duration="16765000" />
-      <workItem from="1714528232102" duration="5475000" />
+      <workItem from="1714528232102" duration="6195000" />
+      <workItem from="1714583740053" duration="5157000" />
+      <workItem from="1714614577953" duration="590000" />
+      <workItem from="1714658320207" duration="6689000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -618,7 +650,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714532868147</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="module 12 orm &#10;one to many">
+      <option name="closed" value="true" />
+      <created>1714533724898</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1714533724898</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
