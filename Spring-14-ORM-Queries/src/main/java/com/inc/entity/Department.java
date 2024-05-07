@@ -12,11 +12,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Table(name = "departments")
 public class Department {
+
     @Id
     private String department;
     private String division;
 
-    @ManyToOne
-
-    private Employee employee;
 }

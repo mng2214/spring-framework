@@ -7,5 +7,5 @@ import jakarta.persistence.MappedSuperclass;
 @MappedSuperclass
 public class BaseEntity {
     @Id
-    private int id;
+    private Long id;
 }
