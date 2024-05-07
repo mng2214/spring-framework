@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/repository/EmployeeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/bootstrap/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/repository/DepartmentRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,15 +329,7 @@
       <workItem from="1714614577953" duration="590000" />
       <workItem from="1714658320207" duration="12572000" />
       <workItem from="1715042222484" duration="1172000" />
-      <workItem from="1715043549980" duration="4747000" />
-    </task>
-    <task id="LOCAL-00001" summary="restructure project">
-      <option name="closed" value="true" />
-      <created>1709783191932</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1709783191933</updated>
+      <workItem from="1715043549980" duration="7160000" />
     </task>
     <task id="LOCAL-00002" summary="restructure project">
       <option name="closed" value="true" />
@@ -722,14 +715,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715047184552</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="departments repository derive queries">
+      <option name="closed" value="true" />
+      <created>1715122921101</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1715122921101</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="spring project creation" />
     <MESSAGE value="spring project description" />
     <MESSAGE value="spring project demo project" />
     <MESSAGE value="spring MVC - Controller" />
@@ -754,7 +754,8 @@
     <MESSAGE value="account &#10;user &#10;added" />
     <MESSAGE value="queries module added" />
     <MESSAGE value="queries classes built" />
-    <option name="LAST_COMMIT_MESSAGE" value="queries classes built" />
+    <MESSAGE value="departments repository derive queries" />
+    <option name="LAST_COMMIT_MESSAGE" value="departments repository derive queries" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

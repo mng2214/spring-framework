@@ -15,5 +15,6 @@ public interface DepartmentRepository extends JpaRepository<Department, String> 
     List<Department> findByDivisionIs(String division);
     //List<Department> findByDivisionEquals(String division);
 
-    // Display top 3 dept with division name includes "Hea" with out duplicates
+    // Display top 3 dept with division name includes "Hea" without duplicates
+    List<Department> findDistinctTop3ByDivisionContainingOrderByDepartment(String division);
 }
