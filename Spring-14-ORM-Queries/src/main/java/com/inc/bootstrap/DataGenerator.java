@@ -1,5 +1,6 @@
 package com.inc.bootstrap;
 
+import com.inc.repository.DepartmentRepository;
 import com.inc.repository.RegionRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.boot.CommandLineRunner;
@@ -10,9 +11,11 @@ import org.springframework.stereotype.Component;
 public class DataGenerator implements CommandLineRunner {
 
     private final RegionRepository regionRepository;
+    private final DepartmentRepository departmentRepository;
 
-    public DataGenerator(RegionRepository regionRepository) {
+    public DataGenerator(RegionRepository regionRepository, DepartmentRepository departmentRepository) {
         this.regionRepository = regionRepository;
+        this.departmentRepository = departmentRepository;
     }
 
     @Override
@@ -31,8 +34,18 @@ public class DataGenerator implements CommandLineRunner {
         System.out.println("findTop2ByCountry" + regionRepository.findTop2ByCountry("Canada"));
 
         System.out.println("-------------------------Region End-------------------------");
-    }
+        System.out.println("-------------------------Department Start-------------------------");
 
+        System.out.println("findByDepartment" + departmentRepository.findByDepartment("Furniture"));
+
+        System.out.println("findByDivisionIs" + departmentRepository.findByDivisionIs("Health"));
+
+
+
+
+
+        System.out.println("-------------------------Department End-------------------------");
+    }
 
 
 }
