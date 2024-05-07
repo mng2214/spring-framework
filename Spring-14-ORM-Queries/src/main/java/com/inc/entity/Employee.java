@@ -3,7 +3,7 @@ package com.inc.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.boot.autoconfigure.amqp.RabbitConnectionDetails;
+
 
 import java.time.LocalDate;
 
@@ -22,4 +22,7 @@ public class Employee extends BaseEntity {
     private Gender gender;
     private Integer salary;
 
+    private Department department;
+
+    private Region region;
 }

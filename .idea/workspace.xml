@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/entity/Region.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-ORM-OneToOne-ManyToMany/src/main/java/com/inc/repository/PaymentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/entity/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
       <list>
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -326,6 +328,7 @@
       <workItem from="1714614577953" duration="590000" />
       <workItem from="1714658320207" duration="12572000" />
       <workItem from="1715042222484" duration="1172000" />
+      <workItem from="1715043549980" duration="911000" />
     </task>
     <task id="LOCAL-00001" summary="restructure project">
       <option name="closed" value="true" />
@@ -679,14 +682,29 @@
       <option name="project" value="LOCAL" />
       <updated>1714874314565</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="queries module added">
+      <option name="closed" value="true" />
+      <created>1715043576037</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1715043576038</updated>
+    </task>
+    <task id="LOCAL-00046" summary="queries module added">
+      <option name="closed" value="true" />
+      <created>1715044065305</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1715044065305</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="restructure project" />
     <MESSAGE value="Coupling Example" />
     <MESSAGE value="spring project creation" />
     <MESSAGE value="spring project description" />
@@ -711,7 +729,8 @@
     <MESSAGE value="CinemaLab added" />
     <MESSAGE value="CinemaLab cinema genre movie MovieCinema BaseEntity added" />
     <MESSAGE value="account &#10;user &#10;added" />
-    <option name="LAST_COMMIT_MESSAGE" value="account &#10;user &#10;added" />
+    <MESSAGE value="queries module added" />
+    <option name="LAST_COMMIT_MESSAGE" value="queries module added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
