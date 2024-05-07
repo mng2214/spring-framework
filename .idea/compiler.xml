@@ -18,6 +18,7 @@
         <module name="Spring-12-ORM-OneToOne-ManyToMany" />
         <module name="Spring-09-Spring-Thymeleaf" />
         <module name="Spring-06-SpringBoot-Demo" />
+        <module name="Spring-14-ORM-Queries" />
         <module name="Spring-05-2-Review-IoC" />
         <module name="Spring-13-ORM-CinemaLab" />
         <module name="Spring-10-ORM-TableCreation" />
@@ -41,6 +42,7 @@
       <module name="Spring-11-ORM-Mapping-One-To-One" options="-parameters" />
       <module name="Spring-12-ORM-OneToOne-ManyToMany" options="-parameters" />
       <module name="Spring-13-ORM-CinemaLab" options="-parameters" />
+      <module name="Spring-14-ORM-Queries" options="-parameters" />
     </option>
   </component>
 </project>
