@@ -51,8 +51,7 @@ public class DataGenerator implements CommandLineRunner {
         System.out.println("getEmployeeByEmail" + employeeRepository.getEmployeeByEmail()); // JPQL query
         System.out.println("getEmployeeSalary" + employeeRepository.getEmployeeSalary()); // JPQL query
         System.out.println("getEmployeeByEmail" + employeeRepository.getEmployeeByEmail("jhelsdonqo@oaic.gov.au")); // JPQL query w/ parameter
-
-
+        System.out.println("getEmployeeByEmail" + employeeRepository.getEmployeeByEmail("jhelsdonqo@oaic.gov.au",80_000)); // JPQL query w/ 2 parameters
 
         System.out.println("-------------------------Employee End-------------------------");
     }
