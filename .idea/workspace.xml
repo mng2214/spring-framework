@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/META-INF/jpa-named-queries.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/bootstrap/DataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/bootstrap/DataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/repository/DepartmentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/repository/DepartmentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/java/com/inc/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-14-ORM-Queries/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +24,8 @@
       <list>
         <option value="HTML File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -328,23 +333,7 @@
       <workItem from="1714614577953" duration="590000" />
       <workItem from="1714658320207" duration="12572000" />
       <workItem from="1715042222484" duration="1172000" />
-      <workItem from="1715043549980" duration="9829000" />
-    </task>
-    <task id="LOCAL-00003" summary="restructure project">
-      <option name="closed" value="true" />
-      <created>1709783667541</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1709783667541</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Coupling Example">
-      <option name="closed" value="true" />
-      <created>1709784135083</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1709784135083</updated>
+      <workItem from="1715043549980" duration="17743000" />
     </task>
     <task id="LOCAL-00005" summary="spring project creation">
       <option name="closed" value="true" />
@@ -722,14 +711,29 @@
       <option name="project" value="LOCAL" />
       <updated>1715125238314</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="queries with JPQL">
+      <option name="closed" value="true" />
+      <created>1715128686377</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1715128686377</updated>
+    </task>
+    <task id="LOCAL-00053" summary="queries with JPQL">
+      <option name="closed" value="true" />
+      <created>1715128925508</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1715128925508</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="spring project demo project" />
     <MESSAGE value="spring MVC - Controller" />
     <MESSAGE value="spring MVC - Model" />
     <MESSAGE value="spring MVC - Model Final" />
@@ -754,7 +758,8 @@
     <MESSAGE value="queries classes built" />
     <MESSAGE value="departments repository derive queries" />
     <MESSAGE value="employee repository derive queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="employee repository derive queries" />
+    <MESSAGE value="queries with JPQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="queries with JPQL" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

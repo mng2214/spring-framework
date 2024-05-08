@@ -1,5 +1,6 @@
 package com.inc.bootstrap;
 
+import com.inc.repository.CourseRepository;
 import com.inc.repository.DepartmentRepository;
 import com.inc.repository.EmployeeRepository;
 import com.inc.repository.RegionRepository;
@@ -14,11 +15,13 @@ public class DataGenerator implements CommandLineRunner {
     private final RegionRepository regionRepository;
     private final DepartmentRepository departmentRepository;
     private final EmployeeRepository employeeRepository;
+    private final CourseRepository courseRepository;
 
-    public DataGenerator(RegionRepository regionRepository, DepartmentRepository departmentRepository, EmployeeRepository employeeRepository) {
+    public DataGenerator(RegionRepository regionRepository, DepartmentRepository departmentRepository, EmployeeRepository employeeRepository, CourseRepository courseRepository) {
         this.regionRepository = regionRepository;
         this.departmentRepository = departmentRepository;
         this.employeeRepository = employeeRepository;
+        this.courseRepository = courseRepository;
     }
 
     @Override
@@ -51,9 +54,19 @@ public class DataGenerator implements CommandLineRunner {
         System.out.println("getEmployeeByEmail" + employeeRepository.getEmployeeByEmail()); // JPQL query
         System.out.println("getEmployeeSalary" + employeeRepository.getEmployeeSalary()); // JPQL query
         System.out.println("getEmployeeByEmail" + employeeRepository.getEmployeeByEmail("jhelsdonqo@oaic.gov.au")); // JPQL query w/ parameter
-        System.out.println("getEmployeeByEmail" + employeeRepository.getEmployeeByEmail("jhelsdonqo@oaic.gov.au",80_000)); // JPQL query w/ 2 parameters
+        System.out.println("getEmployeeByEmail" + employeeRepository.getEmployeeByEmail("jhelsdonqo@oaic.gov.au", 80_000)); // JPQL query w/ 2 parameters
 
         System.out.println("-------------------------Employee End-------------------------");
+        System.out.println("-------------------------Course Start-------------------------");
+
+        System.out.println("findByName" + courseRepository.findByName("Rapid Spring Boot Application Development"));
+        System.out.println("findByCategoryOrderByName" + courseRepository.findByCategoryOrderByName("Spring"));
+        System.out.println("existsByName" + courseRepository.existsByName("Rapid Spring Boot Application Development"));
+        System.out.println("countByCategory" + courseRepository.countByCategory("Spring"));
+        System.out.println("findByNameStartingWith" + courseRepository.findByNameStartingWith("Rapid"));
+        System.out.println("findByCategory" + courseRepository.findByCategory("Spring")); // Stream
+
+        System.out.println("-------------------------Course End-------------------------");
     }
 
 
