@@ -44,9 +44,13 @@ public class DataGenerator implements CommandLineRunner {
 
         System.out.println("findByEmail" + employeeRepository.findByEmail("jhelsdonqo@oaic.gov.au"));
         System.out.println("findByFirstNameAndLastNameOrEmail" + employeeRepository.findByFirstNameAndLastNameOrEmail("Jobi", "Helsdon", "fdellatorrequ@soundcloud.com"));
-      //  System.out.println("findByFirstNameNot" + employeeRepository.findByFirstNameNot("Jobi"));
+        //  System.out.println("findByFirstNameNot" + employeeRepository.findByFirstNameNot("Jobi"));
         System.out.println("findByLastNameStartingWith" + employeeRepository.findByLastNameStartingWith("Cas"));
         System.out.println("findBySalaryGreaterThan" + employeeRepository.findBySalaryGreaterThan(100_000));
+
+        System.out.println("getEmployeeByEmail" + employeeRepository.getEmployeeByEmail()); // JPQL query
+        System.out.println("getEmployeeSalary" + employeeRepository.getEmployeeSalary()); // JPQL query
+        System.out.println("getEmployeeByEmail" + employeeRepository.getEmployeeByEmail("jhelsdonqo@oaic.gov.au")); // JPQL query w/ parameter
 
 
 
