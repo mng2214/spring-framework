@@ -30,7 +30,7 @@ public interface CourseRepository extends JpaRepository<Course, Long> {
     Stream<Course> findByCategory (String categoryName);
 
     @Query("Select c from  Course c where c.category = :category and c.rating > :rating ") // positional param
-    List<Course> findAllByCategoryAndRatingGreaterThen (@Param("salary") String category, @Param("rating") int rating);
+    List<Course> findAllByCategoryAndRatingGreaterThen (@Param("category") String category, @Param("rating") int rating);
 
 
 
