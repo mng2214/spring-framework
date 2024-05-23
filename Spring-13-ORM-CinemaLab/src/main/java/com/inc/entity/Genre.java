@@ -20,4 +20,11 @@ public class Genre extends BaseEntity {
 
     @ManyToMany(mappedBy = "genreList")
     private List<Movie> movieList;
+
+    @Override
+    public String toString() {
+        return "Genre{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
