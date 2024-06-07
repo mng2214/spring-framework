@@ -16,6 +16,7 @@
         <module name="Spring-03-Core-DI" />
         <module name="Spring-04-Core-Abstraction" />
         <module name="Spring-12-ORM-OneToOne-ManyToMany" />
+        <module name="Spring-15-REST" />
         <module name="Spring-09-Spring-Thymeleaf" />
         <module name="Spring-06-SpringBoot-Demo" />
         <module name="Spring-14-ORM-Queries" />
@@ -43,6 +44,7 @@
       <module name="Spring-12-ORM-OneToOne-ManyToMany" options="-parameters" />
       <module name="Spring-13-ORM-CinemaLab" options="-parameters" />
       <module name="Spring-14-ORM-Queries" options="-parameters" />
+      <module name="Spring-15-REST" options="-parameters" />
     </option>
   </component>
 </project>
