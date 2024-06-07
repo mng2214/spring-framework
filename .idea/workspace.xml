@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/Cinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/MovieCinema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/enums/MovieState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/enums/MovieType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/enums/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository/CinemaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository/GenreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository/MovieCinemaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/application.properties" afterDir="false" />
     </list>
     <list id="02aadfb8-c08c-4713-bf91-8d98277a0dda" name="Changes by Cundullah" comment="">
       <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" afterDir="false" />
@@ -26,8 +46,8 @@
       <list>
         <option value="HTML File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -115,10 +135,11 @@
     "Spring Boot.Spring12OrmOneToOneManyToManyApplication.executor": "Run",
     "Spring Boot.Spring13OrmCinemaLabApplication.executor": "Run",
     "Spring Boot.Spring14OrmQueriesApplication.executor": "Run",
+    "Spring Boot.Spring15RestApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/CYDEO/MyProjects/spring",
+    "last_opened_file_path": "E:/CYDEO/MyProjects/spring/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -140,20 +161,21 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-16-REST-Jackson\src\main\java\com\rest\restjackson\repository" />
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-16-REST-Jackson\src\main\java\com\rest\restjackson\enums" />
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-16-REST-Jackson\src\main\java\com\rest\restjackson\entity" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-13-ORM-CinemaLab\src\main\resources" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\static\css\bootstrap\css" />
-      <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\templates\student" />
-      <recent name="E:\CYDEO\MyProjects\spring\Spring-07-Spring-MVC-Controller\src\main\resources\static" />
-      <recent name="E:\CYDEO\MyProjects\spring\Spring-06-SpringBoot-Demo\src\main\java\com\mycompany" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\CYDEO\MyProjects\spring\Spring-16-REST-Jackson\src\main\java\com\rest\restjackson\controller" />
+      <recent name="E:\CYDEO\MyProjects\spring\" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-13-ORM-CinemaLab" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-13-ORM-CinemaLab\src\main\resources\db\migration" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\static\css\bootstrap" />
-      <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\static\css" />
-      <recent name="E:\CYDEO\MyProjects\spring\Spring-09-Spring-Thymeleaf\src\main\resources\static\js" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.rest" />
       <recent name="com.emp" />
       <recent name="com.mycompany" />
     </key>
@@ -167,7 +189,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring13OrmCinemaLabApplication">
+  <component name="RunManager" selected="Spring Boot.Spring15RestApplication">
     <configuration name="AppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AppRunner" />
       <module name="Spring-08-2-Review-Project" />
@@ -292,7 +314,14 @@
     </configuration>
     <configuration name="Spring15RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Spring-15-REST" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rest.spring15rest.Spring15RestApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rest.Spring15RestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring16RestJacksonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="REST-Jackson" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rest.restjackson.Spring16RestJacksonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -303,6 +332,7 @@
       <item itemvalue="Application.StudentController" />
       <item itemvalue="Application.com.icode.App" />
       <item itemvalue="Spring Boot.Spring15RestApplication" />
+      <item itemvalue="Spring Boot.Spring16RestJacksonApplication" />
       <item itemvalue="Spring Boot.Spring14OrmQueriesApplication" />
       <item itemvalue="Spring Boot.Spring13OrmCinemaLabApplication" />
       <item itemvalue="Spring Boot.Spring12OrmOneToOneManyToManyApplication" />
@@ -371,23 +401,7 @@
       <workItem from="1715810721949" duration="6893000" />
       <workItem from="1716419813424" duration="13962000" />
       <workItem from="1716775181435" duration="1728000" />
-      <workItem from="1717725423242" duration="847000" />
-    </task>
-    <task id="LOCAL-00012" summary="spring MVC - Model">
-      <option name="closed" value="true" />
-      <created>1710113570504</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1710113570504</updated>
-    </task>
-    <task id="LOCAL-00013" summary="spring MVC - Model Final">
-      <option name="closed" value="true" />
-      <created>1710116027516</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1710116027516</updated>
+      <workItem from="1717725423242" duration="2812000" />
     </task>
     <task id="LOCAL-00014" summary="spring review project">
       <option name="closed" value="true" />
@@ -765,15 +779,29 @@
       <option name="project" value="LOCAL" />
       <updated>1716429500237</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="REST module added">
+      <option name="closed" value="true" />
+      <created>1717726701365</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1717726701365</updated>
+    </task>
+    <task id="LOCAL-00062" summary="REST module built">
+      <option name="closed" value="true" />
+      <created>1717727689595</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1717727689595</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="spring MVC - Model Final" />
-    <MESSAGE value="spring review project" />
     <MESSAGE value="html review" />
     <MESSAGE value="thymeleaf module added" />
     <MESSAGE value="thymeleaf module - models added" />
@@ -797,7 +825,9 @@
     <MESSAGE value="queries with JPQL" />
     <MESSAGE value="queries with JPQL Native SQL" />
     <MESSAGE value="queries practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="queries practice" />
+    <MESSAGE value="REST module added" />
+    <MESSAGE value="REST module built" />
+    <option name="LAST_COMMIT_MESSAGE" value="REST module built" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
