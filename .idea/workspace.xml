@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="queries practice" />
+    <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-10-ORM-TableCreation/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <list id="02aadfb8-c08c-4713-bf91-8d98277a0dda" name="Changes by Cundullah" comment="">
-      <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/Spring13OrmCinemaLabApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/Spring13OrmCinemaLabApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/TicketRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/TicketRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/UserRepository.java" afterDir="false" />
@@ -77,9 +79,25 @@
     "Application.com.icode.App.executor": "Run",
     "Application.com.tightly_coupled.CydeoApp.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
+    "Maven.Spring-01-Core-IoC [clean].executor": "Run",
+    "Maven.Spring-02-Core-Wiring [clean].executor": "Run",
+    "Maven.Spring-03-Core-DI [clean].executor": "Run",
+    "Maven.Spring-04-Core-Abstraction [clean].executor": "Run",
+    "Maven.Spring-05-1-Core-BeanScope [clean].executor": "Run",
+    "Maven.Spring-05-2-Review-IoC [clean].executor": "Run",
+    "Maven.Spring-06-SpringBoot-Demo [clean].executor": "Run",
     "Maven.Spring-06-SpringBoot-Demo [org.apache.maven.plugins:maven-clean-plugin:3.3.2:help].executor": "Run",
+    "Maven.Spring-07-Spring-MVC-Controller [clean].executor": "Run",
+    "Maven.Spring-08-1-Spring-MVC-Model [clean].executor": "Run",
+    "Maven.Spring-08-2-Review-Project [clean].executor": "Run",
+    "Maven.Spring-09-Spring-Thymeleaf [clean].executor": "Run",
     "Maven.Spring-09-Spring-Thymeleaf [compile].executor": "Run",
     "Maven.Spring-09-Spring-Thymeleaf [install].executor": "Run",
+    "Maven.Spring-10-ORM-TableCreation [clean].executor": "Run",
+    "Maven.Spring-11-ORM-Mapping-One-To-One [clean].executor": "Run",
+    "Maven.Spring-12-ORM-OneToOne-ManyToMany [clean].executor": "Run",
+    "Maven.Spring-13-ORM-CinemaLab [clean].executor": "Run",
+    "Maven.Spring-14-ORM-Queries [clean].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -100,7 +118,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/Projects",
+    "last_opened_file_path": "E:/CYDEO/MyProjects/spring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -163,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommentService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mycompany.service.CommentService" />
-      <module name="Spring-06-SpringBoot-Demo" />
+    <configuration name="CydeoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.icode.CydeoApp" />
+      <module name="Spring-03-Core-DI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mycompany.service.*" />
+          <option name="PATTERN" value="com.icode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,11 +290,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring15RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-15-REST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rest.spring15rest.Spring15RestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.CydeoApp" />
       <item itemvalue="Application.AppRunner" />
       <item itemvalue="Application.StudentController" />
       <item itemvalue="Application.com.icode.App" />
-      <item itemvalue="Application.CommentService" />
+      <item itemvalue="Spring Boot.Spring15RestApplication" />
       <item itemvalue="Spring Boot.Spring14OrmQueriesApplication" />
       <item itemvalue="Spring Boot.Spring13OrmCinemaLabApplication" />
       <item itemvalue="Spring Boot.Spring12OrmOneToOneManyToManyApplication" />
@@ -289,11 +315,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CydeoApp" />
         <item itemvalue="Spring Boot.Spring11OrmMappingOneToOneApplication" />
         <item itemvalue="Application.AppRunner" />
         <item itemvalue="Application.StudentController" />
         <item itemvalue="Application.com.icode.App" />
-        <item itemvalue="Application.CommentService" />
       </list>
     </recent_temporary>
   </component>
@@ -343,23 +369,9 @@
       <workItem from="1715043549980" duration="27749000" />
       <workItem from="1715806646828" duration="595000" />
       <workItem from="1715810721949" duration="6893000" />
-      <workItem from="1716419813424" duration="9148000" />
-    </task>
-    <task id="LOCAL-00010" summary="spring MVC - Model">
-      <option name="closed" value="true" />
-      <created>1710024963542</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1710024963542</updated>
-    </task>
-    <task id="LOCAL-00011" summary="spring MVC - Model">
-      <option name="closed" value="true" />
-      <created>1710109153906</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1710109153906</updated>
+      <workItem from="1716419813424" duration="13962000" />
+      <workItem from="1716775181435" duration="1728000" />
+      <workItem from="1717725423242" duration="847000" />
     </task>
     <task id="LOCAL-00012" summary="spring MVC - Model">
       <option name="closed" value="true" />
@@ -737,7 +749,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716429185891</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="queries practice">
+      <option name="closed" value="true" />
+      <created>1716429320760</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1716429320760</updated>
+    </task>
+    <task id="LOCAL-00060" summary="queries practice">
+      <option name="closed" value="true" />
+      <created>1716429500237</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1716429500237</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
