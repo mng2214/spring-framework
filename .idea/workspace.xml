@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/Genre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/MovieCinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/enums/MovieState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/enums/MovieType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/enums/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository/CinemaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository/GenreRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository/MovieCinemaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository/MovieRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository/TicketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/resources/data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/rest/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/rest/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/rest/controller/CourseController_ResponseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/rest/controller/CourseController_ResponseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/rest/controller/CourseController_ResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/rest/controller/CourseController_ResponseWrapper.java" afterDir="false" />
     </list>
     <list id="02aadfb8-c08c-4713-bf91-8d98277a0dda" name="Changes by Cundullah" comment="">
       <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" afterDir="false" />
@@ -99,6 +81,9 @@
     "Application.com.icode.App.executor": "Run",
     "Application.com.tightly_coupled.CydeoApp.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
+    "Maven.REST-Jackson [clean].executor": "Run",
+    "Maven.REST-Jackson [install].executor": "Run",
+    "Maven.REST-Jackson [test].executor": "Run",
     "Maven.Spring-01-Core-IoC [clean].executor": "Run",
     "Maven.Spring-02-Core-Wiring [clean].executor": "Run",
     "Maven.Spring-03-Core-DI [clean].executor": "Run",
@@ -118,6 +103,9 @@
     "Maven.Spring-12-ORM-OneToOne-ManyToMany [clean].executor": "Run",
     "Maven.Spring-13-ORM-CinemaLab [clean].executor": "Run",
     "Maven.Spring-14-ORM-Queries [clean].executor": "Run",
+    "Maven.Spring-15-REST [clean].executor": "Run",
+    "Maven.Spring-15-REST [install].executor": "Run",
+    "Maven.Spring-15-REST [test].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -401,31 +389,7 @@
       <workItem from="1715810721949" duration="6893000" />
       <workItem from="1716419813424" duration="13962000" />
       <workItem from="1716775181435" duration="1728000" />
-      <workItem from="1717725423242" duration="2812000" />
-    </task>
-    <task id="LOCAL-00014" summary="spring review project">
-      <option name="closed" value="true" />
-      <created>1710373924644</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1710373924644</updated>
-    </task>
-    <task id="LOCAL-00015" summary="html review">
-      <option name="closed" value="true" />
-      <created>1710549608192</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1710549608192</updated>
-    </task>
-    <task id="LOCAL-00016" summary="html review">
-      <option name="closed" value="true" />
-      <created>1710551495498</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1710551495498</updated>
+      <workItem from="1717725423242" duration="6356000" />
     </task>
     <task id="LOCAL-00017" summary="html review">
       <option name="closed" value="true" />
@@ -795,14 +759,37 @@
       <option name="project" value="LOCAL" />
       <updated>1717727689595</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="REST Jackson module built">
+      <option name="closed" value="true" />
+      <created>1717728548640</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1717728548640</updated>
+    </task>
+    <task id="LOCAL-00064" summary="REST Jackson module built">
+      <option name="closed" value="true" />
+      <created>1717728691427</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1717728691427</updated>
+    </task>
+    <task id="LOCAL-00065" summary="REST Jackson module built">
+      <option name="closed" value="true" />
+      <created>1717728980342</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1717728980342</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="html review" />
     <MESSAGE value="thymeleaf module added" />
     <MESSAGE value="thymeleaf module - models added" />
     <MESSAGE value="thymeleaf module - thymeleaf review" />
@@ -827,7 +814,8 @@
     <MESSAGE value="queries practice" />
     <MESSAGE value="REST module added" />
     <MESSAGE value="REST module built" />
-    <option name="LAST_COMMIT_MESSAGE" value="REST module built" />
+    <MESSAGE value="REST Jackson module built" />
+    <option name="LAST_COMMIT_MESSAGE" value="REST Jackson module built" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
