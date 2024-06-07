@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-05-1-Core-BeanScope" />
+        <module name="REST-Jackson" />
         <module name="Spring-07-Spring-MVC-Controller" />
         <module name="Spring-00-Coupling" />
         <module name="Spring-02-Core-Wiring" />
@@ -35,6 +36,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="REST-Jackson" options="-parameters" />
       <module name="Spring-06-SpringBoot-Demo" options="-parameters" />
       <module name="Spring-07-Spring-MVC-Controller" options="-parameters" />
       <module name="Spring-08-1-Spring-MVC-Model" options="-parameters" />
