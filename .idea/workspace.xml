@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/client/UserClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/controller/Consume_FeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/dto/ResponseWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/Spring17RestConsumingApIsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/Spring17RestConsumingApIsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/client/EmployeeClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/dto/Datum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/dto/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/controller/Consume_FeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/controller/Consume_FeignClient.java" afterDir="false" />
     </list>
     <list id="02aadfb8-c08c-4713-bf91-8d98277a0dda" name="Changes by Cundullah" comment="">
       <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" afterDir="false" />
@@ -403,15 +404,7 @@
       <workItem from="1715810721949" duration="6893000" />
       <workItem from="1716419813424" duration="13962000" />
       <workItem from="1716775181435" duration="1728000" />
-      <workItem from="1717725423242" duration="23225000" />
-    </task>
-    <task id="LOCAL-00024" summary="binding">
-      <option name="closed" value="true" />
-      <created>1711071239891</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1711071239891</updated>
+      <workItem from="1717725423242" duration="24988000" />
     </task>
     <task id="LOCAL-00025" summary="Thymeleaf">
       <option name="closed" value="true" />
@@ -797,14 +790,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717869318428</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Feign client added">
+      <option name="closed" value="true" />
+      <created>1717882266324</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1717882266324</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="structure update" />
     <MESSAGE value="orm module created" />
     <MESSAGE value="db connected" />
     <MESSAGE value="Orm basics" />
@@ -829,7 +829,8 @@
     <MESSAGE value="dto added" />
     <MESSAGE value="REST Template added" />
     <MESSAGE value="REST Template finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="REST Template finished" />
+    <MESSAGE value="Feign client added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feign client added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
