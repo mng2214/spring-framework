@@ -1,18 +1,21 @@
 package com.rest.controller;
 
+import com.rest.entity.Genre;
 import com.rest.entity.MovieCinema;
 import com.rest.repository.GenreRepository;
 import com.rest.repository.MovieCinemaRepository;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @RestController
 public class Consume_WebClient {
 
+    private final WebClient webClient = WebClient.builder().baseUrl("http://localhost:8080").build();
     private final MovieCinemaRepository movieCinemaRepository;
     private final GenreRepository genreRepository;
 
@@ -36,6 +39,37 @@ public class Consume_WebClient {
         return ResponseEntity.ok(Mono.just(movieCinemaRepository.findById(id).get()));
     }
 
+    @PostMapping("/create-genre")
+    public Mono<Genre> createGenre(@RequestBody Genre genre) {
+        return Mono.just(genreRepository.save(genre));
+    }
+
+    @DeleteMapping("/delete.genre/{id}")
+    public Mono<Void> deleteGenre(@PathVariable("id") Long id) {
+       genreRepository.deleteById(id);
+       return Mono.empty();
+    }
+
+ //   ---------------------- WEB CLIENT -----------------------
+
+    @GetMapping("/flux")
+    public Flux<MovieCinema> readWithWebClient() {
+       return webClient
+               .get()
+               .uri("/flux-movie-cinemas")
+               .header(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON_VALUE)
+               .retrieve()
+               .bodyToFlux(MovieCinema.class);
+    }
+
+    @GetMapping("/mono/{id}")
+    public Mono<MovieCinema> readWithWebClient(@PathVariable("id") Long id) {
+        return webClient
+                .get()
+                .uri("/mono-movie-cinema/{id}",id)
+                .retrieve()
+                .bodyToMono(MovieCinema.class);
+    }
 
 
 

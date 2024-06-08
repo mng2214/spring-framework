@@ -7,14 +7,6 @@
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/controller/Consume_WebClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/controller/Consume_WebClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/Cinema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/Genre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/MovieCinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/MovieCinema.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/entity/User.java" afterDir="false" />
     </list>
     <list id="02aadfb8-c08c-4713-bf91-8d98277a0dda" name="Changes by Cundullah" comment="">
       <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" afterDir="false" />
@@ -408,15 +400,7 @@
       <workItem from="1715810721949" duration="6893000" />
       <workItem from="1716419813424" duration="13962000" />
       <workItem from="1716775181435" duration="1728000" />
-      <workItem from="1717725423242" duration="29499000" />
-    </task>
-    <task id="LOCAL-00027" summary="structure update">
-      <option name="closed" value="true" />
-      <created>1711591548522</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1711591548522</updated>
+      <workItem from="1717725423242" duration="30863000" />
     </task>
     <task id="LOCAL-00028" summary="orm module created">
       <option name="closed" value="true" />
@@ -802,7 +786,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717886082862</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Web Client Spring Flux">
+      <option name="closed" value="true" />
+      <created>1717888863927</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1717888863927</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
