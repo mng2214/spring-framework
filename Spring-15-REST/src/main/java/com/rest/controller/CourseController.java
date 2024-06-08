@@ -3,14 +3,13 @@ package com.rest.controller;
 import com.rest.dto.CourseDTO;
 import com.rest.service.CourseService;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController // @Controller + @ResponseBody
 @RequestMapping("/courses/api/v1")
 public class CourseController {
 
-    private CourseService courseService;
+    private final CourseService courseService;
 
     public CourseController(CourseService courseService) {
         this.courseService = courseService;
@@ -39,6 +38,16 @@ public class CourseController {
     @PutMapping("{id}")
     public void updateCourse(@PathVariable("id") Long id, @RequestBody CourseDTO courseDTO) {
         courseService.updateCourse(id, courseDTO);
+    }
+
+    @DeleteMapping("{id}")
+    public void deleteCourse(@PathVariable("id") Long id) {
+        courseService.deleteCourseById(id);
+    }
+
+    @DeleteMapping()
+    public void deleteCourses() {
+        courseService.deleteCourses();
     }
 
 }

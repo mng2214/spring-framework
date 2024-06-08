@@ -17,10 +17,8 @@ public class User extends BaseEntity {
 //    @JsonIgnore
     private String email;
 
-
     @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
     private String password;
-
 
     private String username;
 

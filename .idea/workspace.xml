@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/rest/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/rest/controller/CourseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/rest/controller/CourseController_ResponseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/rest/controller/CourseController_ResponseEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/rest/controller/CourseController_ResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-15-REST/src/main/java/com/rest/controller/CourseController_ResponseWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java/com/rest/restjackson/entity/User.java" afterDir="false" />
     </list>
     <list id="02aadfb8-c08c-4713-bf91-8d98277a0dda" name="Changes by Cundullah" comment="">
       <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" afterDir="false" />
@@ -124,6 +127,7 @@
     "Spring Boot.Spring13OrmCinemaLabApplication.executor": "Run",
     "Spring Boot.Spring14OrmQueriesApplication.executor": "Run",
     "Spring Boot.Spring15RestApplication.executor": "Run",
+    "Spring Boot.Spring16RestJacksonApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
@@ -177,7 +181,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring15RestApplication">
+  <component name="RunManager" selected="Spring Boot.Spring16RestJacksonApplication">
     <configuration name="AppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AppRunner" />
       <module name="Spring-08-2-Review-Project" />
@@ -389,15 +393,7 @@
       <workItem from="1715810721949" duration="6893000" />
       <workItem from="1716419813424" duration="13962000" />
       <workItem from="1716775181435" duration="1728000" />
-      <workItem from="1717725423242" duration="6356000" />
-    </task>
-    <task id="LOCAL-00017" summary="html review">
-      <option name="closed" value="true" />
-      <created>1710551555285</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1710551555285</updated>
+      <workItem from="1717725423242" duration="14017000" />
     </task>
     <task id="LOCAL-00018" summary="thymeleaf module added">
       <option name="closed" value="true" />
@@ -783,14 +779,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717728980342</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Course Rest Controllers added">
+      <option name="closed" value="true" />
+      <created>1717732519043</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1717732519043</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="thymeleaf module added" />
     <MESSAGE value="thymeleaf module - models added" />
     <MESSAGE value="thymeleaf module - thymeleaf review" />
     <MESSAGE value="static added" />
@@ -815,7 +818,8 @@
     <MESSAGE value="REST module added" />
     <MESSAGE value="REST module built" />
     <MESSAGE value="REST Jackson module built" />
-    <option name="LAST_COMMIT_MESSAGE" value="REST Jackson module built" />
+    <MESSAGE value="Course Rest Controllers added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course Rest Controllers added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
