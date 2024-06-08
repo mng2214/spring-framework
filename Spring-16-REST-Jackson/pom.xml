@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rest</groupId>
-	<artifactId>REST-Jackson</artifactId>
+	<artifactId>Spring-16-REST-Jackson</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Spring-16-REST-Jackson</name>
 	<description>Spring-16-REST-Jackson</description>
