@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/Spring16RestJacksonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/Spring18RestOpenApi3Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/controller/CinemaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/test/java/com/rest/restjackson/Spring16RestJacksonApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/test/java/com/rest/restjackson/Spring18RestOpenApi3ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/Spring18RestOpenApi3Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/Spring18RestOpenApi3Application.java" afterDir="false" />
     </list>
     <list id="02aadfb8-c08c-4713-bf91-8d98277a0dda" name="Changes by Cundullah" comment="">
       <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" afterDir="false" />
@@ -191,7 +183,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring18RestOpenApi3Application">
+  <component name="RunManager" selected="Spring Boot.Spring16RestJacksonApplication">
     <configuration name="AppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AppRunner" />
       <module name="Spring-08-2-Review-Project" />
@@ -421,15 +413,7 @@
       <workItem from="1716775181435" duration="1728000" />
       <workItem from="1717725423242" duration="36850000" />
       <workItem from="1718073089664" duration="485000" />
-      <workItem from="1718073583770" duration="1500000" />
-    </task>
-    <task id="LOCAL-00030" summary="db connected">
-      <option name="closed" value="true" />
-      <created>1713189518882</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1713189518882</updated>
+      <workItem from="1718073583770" duration="3627000" />
     </task>
     <task id="LOCAL-00031" summary="Orm basics">
       <option name="closed" value="true" />
@@ -815,7 +799,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718072797575</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="OPEN API Review">
+      <option name="closed" value="true" />
+      <created>1718075102417</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1718075102417</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
