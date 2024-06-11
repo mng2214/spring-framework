@@ -36,6 +36,7 @@
         <option value="$PROJECT_DIR$/Spring-16-REST-Jackson/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-15-REST/Spring-17-REST-Consuming-APIs/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-18-REST-OpenApi3/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

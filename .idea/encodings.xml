@@ -32,5 +32,6 @@
     <file url="file://$PROJECT_DIR$/Spring-15-REST/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java" charset="UTF-8" />
   </component>
 </project>

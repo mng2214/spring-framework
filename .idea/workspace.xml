@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/controller/Consume_WebClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/controller/Consume_WebClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/Spring16RestJacksonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/Spring18RestOpenApi3Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/controller/CinemaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/test/java/com/rest/restjackson/Spring16RestJacksonApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/test/java/com/rest/restjackson/Spring18RestOpenApi3ApplicationTests.java" afterDir="false" />
     </list>
     <list id="02aadfb8-c08c-4713-bf91-8d98277a0dda" name="Changes by Cundullah" comment="">
       <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" afterDir="false" />
@@ -122,18 +130,21 @@
     "Spring Boot.Spring13OrmCinemaLabApplication.executor": "Run",
     "Spring Boot.Spring14OrmQueriesApplication.executor": "Run",
     "Spring Boot.Spring15RestApplication.executor": "Run",
+    "Spring Boot.Spring16RestJacksonApplication (1).executor": "Run",
     "Spring Boot.Spring16RestJacksonApplication.executor": "Run",
     "Spring Boot.Spring17RestConsumingApIsApplication.executor": "Run",
+    "Spring Boot.Spring18RestJacksonApplication.executor": "Run",
+    "Spring Boot.Spring18RestOpenApi3Application.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/CYDEO/MyProjects/spring/Spring-17-REST-Consuming-APIs/src/main/java/com/rest/repository",
+    "last_opened_file_path": "E:/CYDEO/MyProjects/spring/Spring-18-REST-OpenApi3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
@@ -149,11 +160,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\CYDEO\MyProjects\spring" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-17-REST-Consuming-APIs\src\main\java\com\rest\repository" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-17-REST-Consuming-APIs\src\main\java\com\rest\enums" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-17-REST-Consuming-APIs\src\main\java\com\rest\entity" />
       <recent name="E:\CYDEO\MyProjects\spring\Spring-17-REST-Consuming-APIs\src\main\java\com\rest\dto" />
-      <recent name="E:\CYDEO\MyProjects\spring\Spring-16-REST-Jackson\src\main\java\com\rest\restjackson\repository" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\CYDEO\MyProjects\spring\" />
@@ -180,7 +191,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring17RestConsumingApIsApplication">
+  <component name="RunManager" selected="Spring Boot.Spring18RestOpenApi3Application">
     <configuration name="AppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AppRunner" />
       <module name="Spring-08-2-Review-Project" />
@@ -324,6 +335,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring18RestOpenApi3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-18-REST-OpenApi3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rest.restjackson.Spring18RestOpenApi3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CydeoApp" />
       <item itemvalue="Application.AppRunner" />
@@ -332,6 +350,7 @@
       <item itemvalue="Spring Boot.Spring15RestApplication" />
       <item itemvalue="Spring Boot.Spring16RestJacksonApplication" />
       <item itemvalue="Spring Boot.Spring17RestConsumingApIsApplication" />
+      <item itemvalue="Spring Boot.Spring18RestOpenApi3Application" />
       <item itemvalue="Spring Boot.Spring14OrmQueriesApplication" />
       <item itemvalue="Spring Boot.Spring13OrmCinemaLabApplication" />
       <item itemvalue="Spring Boot.Spring12OrmOneToOneManyToManyApplication" />
@@ -400,23 +419,9 @@
       <workItem from="1715810721949" duration="6893000" />
       <workItem from="1716419813424" duration="13962000" />
       <workItem from="1716775181435" duration="1728000" />
-      <workItem from="1717725423242" duration="30863000" />
-    </task>
-    <task id="LOCAL-00028" summary="orm module created">
-      <option name="closed" value="true" />
-      <created>1713150805796</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1713150805796</updated>
-    </task>
-    <task id="LOCAL-00029" summary="orm module created">
-      <option name="closed" value="true" />
-      <created>1713151152728</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1713151152728</updated>
+      <workItem from="1717725423242" duration="36850000" />
+      <workItem from="1718073089664" duration="485000" />
+      <workItem from="1718073583770" duration="1500000" />
     </task>
     <task id="LOCAL-00030" summary="db connected">
       <option name="closed" value="true" />
@@ -794,14 +799,29 @@
       <option name="project" value="LOCAL" />
       <updated>1717888863927</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Web Client Spring Flux">
+      <option name="closed" value="true" />
+      <created>1717890288171</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1717890288171</updated>
+    </task>
+    <task id="LOCAL-00078" summary="OPEN API Review">
+      <option name="closed" value="true" />
+      <created>1718072797575</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1718072797575</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="db connected" />
     <MESSAGE value="Orm basics" />
     <MESSAGE value="module 11 orm &#10;mapping added" />
     <MESSAGE value="module 12 orm &#10;one to many" />
@@ -826,7 +846,8 @@
     <MESSAGE value="REST Template finished" />
     <MESSAGE value="Feign client added" />
     <MESSAGE value="Web Client Spring Flux" />
-    <option name="LAST_COMMIT_MESSAGE" value="Web Client Spring Flux" />
+    <MESSAGE value="OPEN API Review" />
+    <option name="LAST_COMMIT_MESSAGE" value="OPEN API Review" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,6 +12,7 @@
         <module name="Spring-00-Coupling" />
         <module name="Spring-02-Core-Wiring" />
         <module name="Spring-08-2-Review-Project" />
+        <module name="Spring-18-REST-OpenApi3" />
         <module name="Spring-01-Core-IoC" />
         <module name="Spring-03-Core-DI" />
         <module name="Spring-04-Core-Abstraction" />
@@ -49,6 +50,7 @@
       <module name="Spring-15-REST" options="-parameters" />
       <module name="Spring-16-REST-Jackson" options="-parameters" />
       <module name="Spring-17-REST-Consuming-APIs" options="-parameters" />
+      <module name="Spring-18-REST-OpenApi3" options="-parameters" />
     </option>
   </component>
 </project>
