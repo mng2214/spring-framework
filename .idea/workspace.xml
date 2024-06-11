@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/Spring18RestOpenApi3Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/Spring18RestOpenApi3Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/pom.xml" afterDir="false" />
     </list>
     <list id="02aadfb8-c08c-4713-bf91-8d98277a0dda" name="Changes by Cundullah" comment="">
       <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" afterDir="false" />
@@ -413,15 +413,7 @@
       <workItem from="1716775181435" duration="1728000" />
       <workItem from="1717725423242" duration="36850000" />
       <workItem from="1718073089664" duration="485000" />
-      <workItem from="1718073583770" duration="3627000" />
-    </task>
-    <task id="LOCAL-00031" summary="Orm basics">
-      <option name="closed" value="true" />
-      <created>1713324266323</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1713324266323</updated>
+      <workItem from="1718073583770" duration="6591000" />
     </task>
     <task id="LOCAL-00032" summary="Orm basics">
       <option name="closed" value="true" />
@@ -807,7 +799,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718075102417</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="OPEN API Review">
+      <option name="closed" value="true" />
+      <created>1718117313065</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1718117313065</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
