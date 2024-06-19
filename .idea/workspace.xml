@@ -5,8 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/Spring19RestSecurityKeycloakLicenseAppApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/client/OrganizationFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/client/OrganizationRestTemplateClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/config/FeignClientInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/controller/LicenseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/model/License.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/model/Organization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/repository/LicenseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/service/LicenseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/service/impl/LicenseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/test/java/com/cydeo/Spring19RestSecurityKeycloakLicenseAppApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/Spring19RestSecurityKeycloakOrganizationsAppApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/controller/OrganizationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/model/Organization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/repository/OrganizationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/service/OrganizationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/service/impl/OrganizationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/test/java/com/cydeo/Spring19RestSecurityKeycloakOrganizationsAppApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/pom.xml" afterDir="false" />
     </list>
     <list id="02aadfb8-c08c-4713-bf91-8d98277a0dda" name="Changes by Cundullah" comment="">
       <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" afterDir="false" />
@@ -127,10 +159,12 @@
     "Spring Boot.Spring17RestConsumingApIsApplication.executor": "Run",
     "Spring Boot.Spring18RestJacksonApplication.executor": "Run",
     "Spring Boot.Spring18RestOpenApi3Application.executor": "Run",
+    "Spring Boot.Spring19RestSecurityKeycloakLicenseAppApplication.executor": "Run",
+    "Spring Boot.Spring19RestSecurityKeycloakOrganizationsAppApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/CYDEO/MyProjects/spring/Spring-18-REST-OpenApi3",
+    "last_opened_file_path": "E:/CYDEO/MyProjects/spring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -183,7 +217,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring16RestJacksonApplication">
+  <component name="RunManager" selected="Spring Boot.Spring19RestSecurityKeycloakOrganizationsAppApplication">
     <configuration name="AppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AppRunner" />
       <module name="Spring-08-2-Review-Project" />
@@ -334,11 +368,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring19RestSecurityKeycloakLicenseAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-19-REST-Security-Keycloak-LicenseApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring19RestSecurityKeycloakLicenseAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring19RestSecurityKeycloakOrganizationsAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-19-REST-Security-Keycloak-OrganizationsApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring19RestSecurityKeycloakOrganizationsAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CydeoApp" />
       <item itemvalue="Application.AppRunner" />
       <item itemvalue="Application.StudentController" />
       <item itemvalue="Application.com.icode.App" />
+      <item itemvalue="Spring Boot.Spring19RestSecurityKeycloakLicenseAppApplication" />
+      <item itemvalue="Spring Boot.Spring19RestSecurityKeycloakOrganizationsAppApplication" />
       <item itemvalue="Spring Boot.Spring15RestApplication" />
       <item itemvalue="Spring Boot.Spring16RestJacksonApplication" />
       <item itemvalue="Spring Boot.Spring17RestConsumingApIsApplication" />
@@ -413,15 +463,9 @@
       <workItem from="1716775181435" duration="1728000" />
       <workItem from="1717725423242" duration="36850000" />
       <workItem from="1718073089664" duration="485000" />
-      <workItem from="1718073583770" duration="6591000" />
-    </task>
-    <task id="LOCAL-00032" summary="Orm basics">
-      <option name="closed" value="true" />
-      <created>1713324596838</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1713324596838</updated>
+      <workItem from="1718073583770" duration="8079000" />
+      <workItem from="1718726908336" duration="1966000" />
+      <workItem from="1718762900214" duration="4017000" />
     </task>
     <task id="LOCAL-00033" summary="Orm basics">
       <option name="closed" value="true" />
@@ -807,7 +851,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718117313065</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="OPEN API Review">
+      <option name="closed" value="true" />
+      <created>1718149924538</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1718149924538</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

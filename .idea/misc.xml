@@ -37,6 +37,8 @@
         <option value="$PROJECT_DIR$/Spring-15-REST/Spring-17-REST-Consuming-APIs/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-18-REST-OpenApi3/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
