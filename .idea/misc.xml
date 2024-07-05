@@ -39,6 +39,8 @@
         <option value="$PROJECT_DIR$/Spring-18-REST-OpenApi3/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-20-AOP/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-21-UnitTesting-JUnit5/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -48,7 +50,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" default="true" project-jdk-name="openjdk-22" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

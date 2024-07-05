@@ -5,40 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/Spring19RestSecurityKeycloakLicenseAppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/client/OrganizationFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/client/OrganizationRestTemplateClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/config/FeignClientInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/controller/LicenseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/model/License.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/model/Organization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/repository/LicenseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/service/LicenseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/java/com/cydeo/service/impl/LicenseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-LicenseApp/src/test/java/com/cydeo/Spring19RestSecurityKeycloakLicenseAppApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/Spring19RestSecurityKeycloakOrganizationsAppApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/controller/OrganizationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/model/Organization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/repository/OrganizationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/service/OrganizationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/java/com/cydeo/service/impl/OrganizationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/test/java/com/cydeo/Spring19RestSecurityKeycloakOrganizationsAppApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/Spring20AopApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/annotation/Loggable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/aspect/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/dto/CourseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/repository/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/util/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-20-AOP/src/test/java/com/cydeo/Spring20AopApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-21-UnitTesting-JUnit5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-21-UnitTesting-JUnit5/src/main/java/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-21-UnitTesting-JUnit5/src/main/resources/sample-data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-21-UnitTesting-JUnit5/src/test/java/CalculatorParameterizedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-21-UnitTesting-JUnit5/src/test/java/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/controller/CinemaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/controller/CinemaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-18-REST-OpenApi3/src/main/java/com/rest/restjackson/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/main/resources/application.properties" afterDir="false" />
     </list>
     <list id="02aadfb8-c08c-4713-bf91-8d98277a0dda" name="Changes by Cundullah" comment="">
       <change beforePath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/CinemaRepository.java" afterDir="false" />
@@ -101,89 +97,89 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.AppRunner.executor": "Run",
-    "Application.CommentService.executor": "Run",
-    "Application.CydeoApp.executor": "Run",
-    "Application.StudentController.executor": "Run",
-    "Application.com.icode.App.executor": "Run",
-    "Application.com.tightly_coupled.CydeoApp.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Maven.REST-Jackson [clean].executor": "Run",
-    "Maven.REST-Jackson [install].executor": "Run",
-    "Maven.REST-Jackson [test].executor": "Run",
-    "Maven.Spring-01-Core-IoC [clean].executor": "Run",
-    "Maven.Spring-02-Core-Wiring [clean].executor": "Run",
-    "Maven.Spring-03-Core-DI [clean].executor": "Run",
-    "Maven.Spring-04-Core-Abstraction [clean].executor": "Run",
-    "Maven.Spring-05-1-Core-BeanScope [clean].executor": "Run",
-    "Maven.Spring-05-2-Review-IoC [clean].executor": "Run",
-    "Maven.Spring-06-SpringBoot-Demo [clean].executor": "Run",
-    "Maven.Spring-06-SpringBoot-Demo [org.apache.maven.plugins:maven-clean-plugin:3.3.2:help].executor": "Run",
-    "Maven.Spring-07-Spring-MVC-Controller [clean].executor": "Run",
-    "Maven.Spring-08-1-Spring-MVC-Model [clean].executor": "Run",
-    "Maven.Spring-08-2-Review-Project [clean].executor": "Run",
-    "Maven.Spring-09-Spring-Thymeleaf [clean].executor": "Run",
-    "Maven.Spring-09-Spring-Thymeleaf [compile].executor": "Run",
-    "Maven.Spring-09-Spring-Thymeleaf [install].executor": "Run",
-    "Maven.Spring-10-ORM-TableCreation [clean].executor": "Run",
-    "Maven.Spring-11-ORM-Mapping-One-To-One [clean].executor": "Run",
-    "Maven.Spring-12-ORM-OneToOne-ManyToMany [clean].executor": "Run",
-    "Maven.Spring-13-ORM-CinemaLab [clean].executor": "Run",
-    "Maven.Spring-14-ORM-Queries [clean].executor": "Run",
-    "Maven.Spring-15-REST [clean].executor": "Run",
-    "Maven.Spring-15-REST [install].executor": "Run",
-    "Maven.Spring-15-REST [test].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Spring Boot.MvcControllerApp.executor": "Run",
-    "Spring Boot.MvcModelApplication.executor": "Run",
-    "Spring Boot.Spring06SpringBootDemoApplication.executor": "Run",
-    "Spring Boot.Spring07SpringMvcControllerApplication.executor": "Run",
-    "Spring Boot.Spring08SpringMvcModelApplication.executor": "Run",
-    "Spring Boot.Spring09SpringThymeleafApplication.executor": "Run",
-    "Spring Boot.Spring10OrmTableCreationApplication.executor": "Run",
-    "Spring Boot.Spring11OrmMappingOneToOneApplication.executor": "Run",
-    "Spring Boot.Spring12OrmOneToOneManyToManyApplication.executor": "Run",
-    "Spring Boot.Spring13OrmCinemaLabApplication.executor": "Run",
-    "Spring Boot.Spring14OrmQueriesApplication.executor": "Run",
-    "Spring Boot.Spring15RestApplication.executor": "Run",
-    "Spring Boot.Spring16RestJacksonApplication (1).executor": "Run",
-    "Spring Boot.Spring16RestJacksonApplication.executor": "Run",
-    "Spring Boot.Spring17RestConsumingApIsApplication.executor": "Run",
-    "Spring Boot.Spring18RestJacksonApplication.executor": "Run",
-    "Spring Boot.Spring18RestOpenApi3Application.executor": "Run",
-    "Spring Boot.Spring19RestSecurityKeycloakLicenseAppApplication.executor": "Run",
-    "Spring Boot.Spring19RestSecurityKeycloakOrganizationsAppApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/CYDEO/MyProjects/spring",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CommentService.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CydeoApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentController.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.icode.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.com.tightly_coupled.CydeoApp.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Maven.REST-Jackson [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.REST-Jackson [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.REST-Jackson [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-01-Core-IoC [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-02-Core-Wiring [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-03-Core-DI [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-04-Core-Abstraction [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-05-1-Core-BeanScope [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-05-2-Review-IoC [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-06-SpringBoot-Demo [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-06-SpringBoot-Demo [org.apache.maven.plugins:maven-clean-plugin:3.3.2:help].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-07-Spring-MVC-Controller [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-08-1-Spring-MVC-Model [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-08-2-Review-Project [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-09-Spring-Thymeleaf [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-09-Spring-Thymeleaf [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-09-Spring-Thymeleaf [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-10-ORM-TableCreation [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-11-ORM-Mapping-One-To-One [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-12-ORM-OneToOne-ManyToMany [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-13-ORM-CinemaLab [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-14-ORM-Queries [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-15-REST [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-15-REST [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Spring-15-REST [test].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MvcControllerApp.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MvcModelApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring06SpringBootDemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring07SpringMvcControllerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring08SpringMvcModelApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring09SpringThymeleafApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring10OrmTableCreationApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring11OrmMappingOneToOneApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring12OrmOneToOneManyToManyApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring13OrmCinemaLabApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring14OrmQueriesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring15RestApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring16RestJacksonApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring16RestJacksonApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring17RestConsumingApIsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring18RestJacksonApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring18RestOpenApi3Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring19RestSecurityKeycloakLicenseAppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring19RestSecurityKeycloakOrganizationsAppApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/CYDEO/MyProjects/spring&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql_aurora_aws",
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora_aws&quot;,
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\CYDEO\MyProjects\spring" />
@@ -382,11 +378,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring20AopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-20-AOP" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cydeo.Spring20AopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CydeoApp" />
       <item itemvalue="Application.AppRunner" />
       <item itemvalue="Application.StudentController" />
       <item itemvalue="Application.com.icode.App" />
+      <item itemvalue="Spring Boot.Spring20AopApplication" />
       <item itemvalue="Spring Boot.Spring19RestSecurityKeycloakLicenseAppApplication" />
       <item itemvalue="Spring Boot.Spring19RestSecurityKeycloakOrganizationsAppApplication" />
       <item itemvalue="Spring Boot.Spring15RestApplication" />
@@ -465,15 +469,12 @@
       <workItem from="1718073089664" duration="485000" />
       <workItem from="1718073583770" duration="8079000" />
       <workItem from="1718726908336" duration="1966000" />
-      <workItem from="1718762900214" duration="4017000" />
-    </task>
-    <task id="LOCAL-00033" summary="Orm basics">
-      <option name="closed" value="true" />
-      <created>1713326433353</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1713326433353</updated>
+      <workItem from="1718762900214" duration="13158000" />
+      <workItem from="1718849597820" duration="1590000" />
+      <workItem from="1718933741785" duration="638000" />
+      <workItem from="1719024157104" duration="4317000" />
+      <workItem from="1719526373672" duration="5109000" />
+      <workItem from="1720048489476" duration="3396000" />
     </task>
     <task id="LOCAL-00034" summary="module 11 orm &#10;mapping added">
       <option name="closed" value="true" />
@@ -859,15 +860,21 @@
       <option name="project" value="LOCAL" />
       <updated>1718149924538</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="OAuth20 added">
+      <option name="closed" value="true" />
+      <created>1718767129375</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1718767129376</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Orm basics" />
-    <MESSAGE value="module 11 orm &#10;mapping added" />
     <MESSAGE value="module 12 orm &#10;one to many" />
     <MESSAGE value="CinemaLab added" />
     <MESSAGE value="CinemaLab cinema genre movie MovieCinema BaseEntity added" />
@@ -891,7 +898,9 @@
     <MESSAGE value="Feign client added" />
     <MESSAGE value="Web Client Spring Flux" />
     <MESSAGE value="OPEN API Review" />
-    <option name="LAST_COMMIT_MESSAGE" value="OPEN API Review" />
+    <MESSAGE value="OAuth20" />
+    <MESSAGE value="OAuth20 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="OAuth20 added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
