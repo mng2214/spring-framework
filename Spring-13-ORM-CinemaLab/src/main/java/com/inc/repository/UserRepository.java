@@ -42,7 +42,7 @@ public interface UserRepository extends JpaRepository<User, Long> {
     // ------------------- Native QUERIES ------------------- //
 
     //Write a native query that returns all users that contain a specific name?
-    @Query(value = "SELECT * FROM user_account u JOIN account_details ad " +
+    @Query(value = "SELECT u.* FROM user_account u JOIN account_details ad " +
             " ON u.account_details_id = ad.id " +
             " WHERE ad.name ILIKE concat('%',?1,'%')",nativeQuery = true)
     List<User> retrieveAllByName(String name);

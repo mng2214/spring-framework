@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/MovieRepository.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Spring-13-ORM-CinemaLab/src/main/java/com/inc/repository/TicketRepository.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Spring-16-REST-Jackson/src/main/resources/data.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/Spring-17-REST-Consuming-APIs/src/main/resources/data.sql" dialect="GenericSQL" />
+  </component>
+</project>

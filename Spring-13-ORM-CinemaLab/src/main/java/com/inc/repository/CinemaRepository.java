@@ -34,7 +34,7 @@ public interface CinemaRepository extends JpaRepository<Cinema, Long> {
     // ------------------- Native QUERIES ------------------- //
 
     //Write a native query to read all cinemas by location country
-    @Query(value = "SELECT * FROM cinema c JOIN location l " +
+    @Query(value = "SELECT l.* FROM cinema c JOIN location l " +
             " ON c.location_id = l.id WHERE l.country = ?1",nativeQuery = true)
     List<Cinema> retrieveAllBasedOnLocationCountry(String country);
 
