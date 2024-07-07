@@ -12,6 +12,7 @@
         <module name="Spring-05-1-Core-BeanScope" />
         <module name="Spring-22-UnitTesting-Mockito" />
         <module name="Spring-07-Spring-MVC-Controller" />
+        <module name="Algo-Questions" />
         <module name="Spring-08-2-Review-Project" />
         <module name="Spring-03-Core-DI" />
         <module name="Spring-12-ORM-OneToOne-ManyToMany" />
@@ -44,6 +45,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Algo-Questions" options="-parameters" />
       <module name="Spring-06-SpringBoot-Demo" options="-parameters" />
       <module name="Spring-07-Spring-MVC-Controller" options="-parameters" />
       <module name="Spring-08-1-Spring-MVC-Model" options="-parameters" />

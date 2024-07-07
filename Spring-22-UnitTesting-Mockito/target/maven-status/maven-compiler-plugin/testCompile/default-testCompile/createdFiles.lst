@@ -1,0 +1,5 @@
+com\cydeo\service\impl\RoleServiceImplTest.class
+com\cydeo\service\impl\ProjectServiceImplTest.class
+com\cydeo\service\impl\TaskServiceImplTest.class
+com\cydeo\service\impl\UserServiceImplTest.class
+com\cydeo\TicketingProjectOrmApplicationTests.class

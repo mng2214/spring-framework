@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.cydeo.service.impl.TaskServiceImplTest" time="0.074" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.cydeo.service.impl.RoleServiceImplTest" time="0.026" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -56,10 +56,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="findById_bdd_test" classname="com.cydeo.service.impl.TaskServiceImplTest" time="0.036"/>
-  <testcase name="findById_test{long}[1]" classname="com.cydeo.service.impl.TaskServiceImplTest" time="0.013"/>
-  <testcase name="findById_test{long}[2]" classname="com.cydeo.service.impl.TaskServiceImplTest" time="0.002"/>
-  <testcase name="findById_test{long}[3]" classname="com.cydeo.service.impl.TaskServiceImplTest" time="0.002"/>
-  <testcase name="findById_test{long}[4]" classname="com.cydeo.service.impl.TaskServiceImplTest" time="0.002"/>
-  <testcase name="testUpdate" classname="com.cydeo.service.impl.TaskServiceImplTest" time="0.002"/>
+  <testcase name="listAllRoles" classname="com.cydeo.service.impl.RoleServiceImplTest" time="0.024"/>
+  <testcase name="findById" classname="com.cydeo.service.impl.RoleServiceImplTest" time="0.002"/>
 </testsuite>
