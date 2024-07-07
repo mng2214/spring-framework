@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.cydeo.service.impl.ProjectServiceImplTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.464 s <<< FAILURE! - in com.cydeo.service.impl.ProjectServiceImplTest
+listOfProjects_test  Time elapsed: 0.443 s  <<< FAILURE!
+org.mockito.exceptions.verification.WantedButNotInvoked: 
+
+Wanted but not invoked:
+projectMapper.convertToEntity(
+    <any com.cydeo.dto.ProjectDTO>
+);
+-> at com.cydeo.service.impl.ProjectServiceImplTest.listOfProjects_test(ProjectServiceImplTest.java:91)
+Actually, there were zero interactions with this mock.
+
+	at com.cydeo.service.impl.ProjectServiceImplTest.listOfProjects_test(ProjectServiceImplTest.java:91)
+
+getByProjectCode_exception_test  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <Project Not Found> but was: <
+Strict stubbing argument mismatch. Please check:
+ - this invocation of 'findByProjectCode' method:
+    projectRepository.findByProjectCode("");
+    -> at com.cydeo.service.impl.ProjectServiceImpl.getByProjectCode(ProjectServiceImpl.java:38)
+ - has following stubbing(s) with different arguments:
+    1. projectRepository.findByProjectCode(" ");
+      -> at com.cydeo.service.impl.ProjectServiceImplTest.getByProjectCode_exception_test(ProjectServiceImplTest.java:55)
+Typically, stubbing argument mismatch indicates user mistake when writing tests.
+Mockito fails early so that you can debug potential problem easily.
+However, there are legit scenarios when this exception generates false negative signal:
+  - stubbing the same method multiple times using 'given().will()' or 'when().then()' API
+    Please use 'will().given()' or 'doReturn().when()' API for stubbing.
+  - stubbed method is intentionally invoked with different arguments by code under test
+    Please use default or 'silent' JUnit Rule (equivalent of Strictness.LENIENT).
+For more information see javadoc for PotentialStubbingProblem class.>
+	at com.cydeo.service.impl.ProjectServiceImplTest.getByProjectCode_exception_test(ProjectServiceImplTest.java:61)
+

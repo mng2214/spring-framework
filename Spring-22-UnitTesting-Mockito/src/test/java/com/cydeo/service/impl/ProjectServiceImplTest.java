@@ -10,6 +10,9 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
@@ -29,11 +32,8 @@ class ProjectServiceImplTest {
     void getByProjectCode_test() {
 
         // Given
-        Project project = new Project();
-        ProjectDTO projectDTO = new ProjectDTO();
-
-        when(projectRepository.findByProjectCode(anyString())).thenReturn(project);
-        when(projectMapper.convertToDto(project)).thenReturn(projectDTO);
+        when(projectRepository.findByProjectCode(anyString())).thenReturn(new Project());
+        when(projectMapper.convertToDto(new Project())).thenReturn( new ProjectDTO());
 
         // When
         ProjectDTO projectDTO1 = projectService.getByProjectCode(anyString());
@@ -49,9 +49,9 @@ class ProjectServiceImplTest {
     @Test
     void getByProjectCode_exception_test() {
 
-        when(projectRepository.findByProjectCode("")).thenThrow(new RuntimeException("Project Not Found"));
+        when(projectRepository.findByProjectCode(" ")).thenThrow(new RuntimeException("Project Not Found"));
 
-        Throwable exception = assertThrows(RuntimeException.class, () -> projectService.getByProjectCode("PR01"));
+        Throwable exception = assertThrows(RuntimeException.class, () -> projectService.getByProjectCode(""));
 
 //        verify(projectRepository).findByProjectCode(anyString());
 
@@ -72,6 +72,24 @@ class ProjectServiceImplTest {
 
         verify(projectRepository).save(project);
         verify(projectMapper).convertToEntity(any(ProjectDTO.class));
+
+    }
+
+    @Test
+    void listOfProjects_test() {
+
+        // Arrange
+        List<Project> projects = new ArrayList<>();
+        projects.add(new Project()); // Add a sample project to the list
+        when(projectRepository.findAll()).thenReturn(projects);
+        when(projectMapper.convertToDto(any(Project.class))).thenReturn(new ProjectDTO()); // Mock the mapper behavior
+
+        // Act
+        projectService.listAllProjects();
+
+        // Assert
+        verify(projectRepository).findAll();
+        verify(projectMapper).convertToDto(any(Project.class));
 
     }
 
