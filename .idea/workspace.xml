@@ -5,19 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/src/main/java/com/appdeveloper/algoquestions/ZAlgoQuestionsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/src/test/java/com/appdeveloper/algoquestions/ZAlgoQuestionsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/src/test/java/com/appdeveloper/algoquestions/algoQ/Algo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/test/java/com/cydeo/jkws/JwkExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/test-classes/com/cydeo/Spring19RestSecurityKeycloakOrganizationsAppApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/test-classes/com/cydeo/jkws/JwkExample$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/test-classes/com/cydeo/jkws/JwkExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/src/test/java/com/appdeveloper/algoquestions/algoQ/FindMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/src/test/java/com/appdeveloper/algoquestions/algoQ/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/src/test/java/com/appdeveloper/algoquestions/algoQ/isAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/src/test/java/com/appdeveloper/algoquestions/algoQ/isPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/Spring19RestSecurityKeycloakOrganizationsAppApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/Spring19RestSecurityKeycloakOrganizationsAppApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/controller/OrganizationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/controller/OrganizationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/model/Organization.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/model/Organization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/repository/OrganizationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/repository/OrganizationRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/service/OrganizationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/service/OrganizationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/service/impl/OrganizationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/service/impl/OrganizationServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Z-Algo-Questions/src/test/java/com/appdeveloper/algoquestions/algoQ/Algo.java" beforeDir="false" />
     </list>
     <list id="02aadfb8-c08c-4713-bf91-8d98277a0dda" name="Changes by Cundullah" comment="" />
     <list id="fc518037-2012-4f05-acfd-a929ff27c52a" name="Changes by jamaldemir" comment="" />
@@ -74,9 +79,13 @@
     "Application.AppRunner.executor": "Run",
     "Application.CommentService.executor": "Run",
     "Application.CydeoApp.executor": "Run",
+    "Application.FindMissingNumber.executor": "Run",
+    "Application.JwkExample.executor": "Run",
     "Application.StudentController.executor": "Run",
+    "Application.TwoSum.executor": "Run",
     "Application.com.icode.App.executor": "Run",
     "Application.com.tightly_coupled.CydeoApp.executor": "Run",
+    "Application.isPalindrome.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
     "JUnit.CalculatorParameterizedTest.testCase6.executor": "Run",
     "JUnit.ProjectServiceImplTest.executor": "Run",
@@ -155,7 +164,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -204,7 +213,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.TwoSum">
     <configuration name="Algo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.appdeveloper.algoquestions.algoQ.Algo" />
       <module name="Algo-Questions" />
@@ -218,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.icode.App" />
-      <module name="Spring-04-Core-Abstraction" />
+    <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.appdeveloper.algoquestions.algoQ.FindMissingNumber" />
+      <module name="Algo-Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.icode.*" />
+          <option name="PATTERN" value="com.appdeveloper.algoquestions.algoQ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,50 +240,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoleServiceImplTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring-22-UnitTesting-Mockito" />
+    <configuration name="JwkExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cydeo.jkws.JwkExample" />
+      <module name="Spring-19-REST-Security-Keycloak-OrganizationsApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.service.impl.*" />
+          <option name="PATTERN" value="com.cydeo.jkws.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.service.impl.RoleServiceImplTest" />
-      <option name="METHOD_NAME" value="findById" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoleServiceImplTest.listAllRoles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring-22-UnitTesting-Mockito" />
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.appdeveloper.algoquestions.algoQ.TwoSum" />
+      <module name="Algo-Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.service.impl.*" />
+          <option name="PATTERN" value="com.appdeveloper.algoquestions.algoQ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.service.impl.RoleServiceImplTest" />
-      <option name="METHOD_NAME" value="listAllRoles" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskServiceImplTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring-22-UnitTesting-Mockito" />
+    <configuration name="isPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.appdeveloper.algoquestions.algoQ.isPalindrome" />
+      <module name="Algo-Questions" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cydeo.service.impl.*" />
+          <option name="PATTERN" value="com.appdeveloper.algoquestions.algoQ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cydeo.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.cydeo.service.impl.TaskServiceImplTest" />
-      <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -417,38 +417,38 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.FindMissingNumber" />
       <item itemvalue="Application.Algo" />
-      <item itemvalue="Application.App" />
+      <item itemvalue="Application.JwkExample" />
+      <item itemvalue="Application.TwoSum" />
+      <item itemvalue="Application.isPalindrome" />
       <item itemvalue="Diffblue Cover.Write tests for class UserServiceImpl" />
-      <item itemvalue="JUnit.RoleServiceImplTest.findById" />
-      <item itemvalue="JUnit.RoleServiceImplTest.listAllRoles" />
-      <item itemvalue="JUnit.TaskServiceImplTest.testUpdate" />
-      <item itemvalue="Spring Boot.Spring23IntegrationTestingMockMvcApplication" />
-      <item itemvalue="Spring Boot.ZAlgoQuestionsApplication" />
-      <item itemvalue="Spring Boot.TicketingProjectOrmApplication" />
-      <item itemvalue="Spring Boot.Spring20AopApplication" />
-      <item itemvalue="Spring Boot.Spring19RestSecurityKeycloakLicenseAppApplication" />
-      <item itemvalue="Spring Boot.Spring19RestSecurityKeycloakOrganizationsAppApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.MvcControllerApp" />
+      <item itemvalue="Spring Boot.MvcModelApplication" />
+      <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
+      <item itemvalue="Spring Boot.Spring10OrmTableCreationApplication" />
+      <item itemvalue="Spring Boot.Spring12OrmOneToOneManyToManyApplication" />
+      <item itemvalue="Spring Boot.Spring13OrmCinemaLabApplication" />
+      <item itemvalue="Spring Boot.Spring14OrmQueriesApplication" />
       <item itemvalue="Spring Boot.Spring15RestApplication" />
       <item itemvalue="Spring Boot.Spring16RestJacksonApplication" />
       <item itemvalue="Spring Boot.Spring17RestConsumingApIsApplication" />
       <item itemvalue="Spring Boot.Spring18RestOpenApi3Application" />
-      <item itemvalue="Spring Boot.Spring14OrmQueriesApplication" />
-      <item itemvalue="Spring Boot.Spring13OrmCinemaLabApplication" />
-      <item itemvalue="Spring Boot.Spring12OrmOneToOneManyToManyApplication" />
-      <item itemvalue="Spring Boot.Spring10OrmTableCreationApplication" />
-      <item itemvalue="Spring Boot.Spring09SpringThymeleafApplication" />
-      <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="Spring Boot.MvcControllerApp" />
-      <item itemvalue="Spring Boot.MvcModelApplication" />
+      <item itemvalue="Spring Boot.Spring19RestSecurityKeycloakLicenseAppApplication" />
+      <item itemvalue="Spring Boot.Spring19RestSecurityKeycloakOrganizationsAppApplication" />
+      <item itemvalue="Spring Boot.Spring20AopApplication" />
+      <item itemvalue="Spring Boot.Spring23IntegrationTestingMockMvcApplication" />
+      <item itemvalue="Spring Boot.TicketingProjectOrmApplication" />
+      <item itemvalue="Spring Boot.ZAlgoQuestionsApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.TwoSum" />
+        <item itemvalue="Application.FindMissingNumber" />
+        <item itemvalue="Application.JwkExample" />
+        <item itemvalue="Application.isPalindrome" />
         <item itemvalue="Application.Algo" />
-        <item itemvalue="JUnit.RoleServiceImplTest.findById" />
-        <item itemvalue="JUnit.RoleServiceImplTest.listAllRoles" />
-        <item itemvalue="JUnit.TaskServiceImplTest.testUpdate" />
       </list>
     </recent_temporary>
   </component>
@@ -510,7 +510,11 @@
       <workItem from="1719024157104" duration="4317000" />
       <workItem from="1719526373672" duration="5109000" />
       <workItem from="1720048489476" duration="9203000" />
-      <workItem from="1720300940409" duration="13968000" />
+      <workItem from="1720300940409" duration="25447000" />
+      <workItem from="1720652545602" duration="5162000" />
+      <workItem from="1720756311210" duration="2000" />
+      <workItem from="1720883692265" duration="47000" />
+      <workItem from="1720985910586" duration="7163000" />
     </task>
     <task id="LOCAL-00035" summary="module 11 orm &#10;mapping added">
       <option name="closed" value="true" />
@@ -949,6 +953,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/spring$ProjectServiceImplTest.ic" NAME="ProjectServiceImplTest Coverage Results" MODIFIED="1720298931226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
