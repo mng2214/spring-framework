@@ -104,8 +104,29 @@ public class LoggingAspect {
 //    }
 
 
+    @Pointcut("@annotation(com.cydeo.annotation.Loggable)")
+    public void anyOperation() {
+    }
 
+    @Around("anyOperation()")
+    public Object advice(ProceedingJoinPoint proceedingJoinPoint) {
 
+        logger.info("Before -> Method: {}", proceedingJoinPoint.getSignature().toShortString());
+
+        Object result = null;
+
+        try {
+            result = proceedingJoinPoint.proceed();
+        } catch (Throwable e) {
+            e.printStackTrace();
+        }
+
+        assert result != null;
+        logger.info("After -> Method: {}, Result: {}", proceedingJoinPoint.getSignature().toShortString(), result);
+
+        return result;
+
+    }
 
 
 }
