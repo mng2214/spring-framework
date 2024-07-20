@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="981ae290-e34c-4fa8-bb84-3b86dd91e08e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/src/test/java/com/cydeo/jkws/JwkExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/test-classes/com/cydeo/Spring19RestSecurityKeycloakOrganizationsAppApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/test-classes/com/cydeo/jkws/JwkExample$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/test-classes/com/cydeo/jkws/JwkExample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/src/test/java/com/appdeveloper/algoquestions/algoQ/FindMissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/src/test/java/com/appdeveloper/algoquestions/algoQ/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/src/test/java/com/appdeveloper/algoquestions/algoQ/isAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Z-Algo-Questions/src/test/java/com/appdeveloper/algoquestions/algoQ/isPalindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/Spring19RestSecurityKeycloakOrganizationsAppApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/Spring19RestSecurityKeycloakOrganizationsAppApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/controller/OrganizationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/controller/OrganizationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/model/Organization.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/model/Organization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/repository/OrganizationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/repository/OrganizationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/service/OrganizationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/service/OrganizationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/service/impl/OrganizationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-19-REST-Security-Keycloak-OrganizationsApp/target/classes/com/cydeo/service/impl/OrganizationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Z-Algo-Questions/src/test/java/com/appdeveloper/algoquestions/algoQ/Algo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/aspect/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/aspect/LoggingAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/java/com/cydeo/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-20-AOP/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-20-AOP/src/main/resources/application.properties" afterDir="false" />
     </list>
     <list id="02aadfb8-c08c-4713-bf91-8d98277a0dda" name="Changes by Cundullah" comment="" />
     <list id="fc518037-2012-4f05-acfd-a929ff27c52a" name="Changes by jamaldemir" comment="" />
@@ -148,6 +134,7 @@
     "Spring Boot.Spring18RestOpenApi3Application.executor": "Run",
     "Spring Boot.Spring19RestSecurityKeycloakLicenseAppApplication.executor": "Run",
     "Spring Boot.Spring19RestSecurityKeycloakOrganizationsAppApplication.executor": "Run",
+    "Spring Boot.Spring20AopApplication.executor": "Run",
     "Spring Boot.TicketingProjectOrmApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
@@ -213,7 +200,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoSum">
+  <component name="RunManager" selected="Spring Boot.Spring20AopApplication">
     <configuration name="Algo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.appdeveloper.algoquestions.algoQ.Algo" />
       <module name="Algo-Questions" />
@@ -514,15 +501,11 @@
       <workItem from="1720652545602" duration="5162000" />
       <workItem from="1720756311210" duration="2000" />
       <workItem from="1720883692265" duration="47000" />
-      <workItem from="1720985910586" duration="7163000" />
-    </task>
-    <task id="LOCAL-00035" summary="module 11 orm &#10;mapping added">
-      <option name="closed" value="true" />
-      <created>1714344169068</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1714344169068</updated>
+      <workItem from="1720985910586" duration="7201000" />
+      <workItem from="1721100404356" duration="22000" />
+      <workItem from="1721348041693" duration="1146000" />
+      <workItem from="1721351700737" duration="800000" />
+      <workItem from="1721499280463" duration="6153000" />
     </task>
     <task id="LOCAL-00036" summary="module 11 orm &#10;mapping added">
       <option name="closed" value="true" />
@@ -908,14 +891,21 @@
       <option name="project" value="LOCAL" />
       <updated>1720211589276</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="algo q">
+      <option name="closed" value="true" />
+      <created>1721083426657</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1721083426657</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="CinemaLab added" />
     <MESSAGE value="CinemaLab cinema genre movie MovieCinema BaseEntity added" />
     <MESSAGE value="account &#10;user &#10;added" />
     <MESSAGE value="queries module added" />
@@ -940,7 +930,8 @@
     <MESSAGE value="OAuth20" />
     <MESSAGE value="OAuth20 added" />
     <MESSAGE value="jtuni5 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="jtuni5 added" />
+    <MESSAGE value="algo q" />
+    <option name="LAST_COMMIT_MESSAGE" value="algo q" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -26,6 +26,7 @@ public class CourseController {
 
        // logger.info("Before -> Controller: {} - Method {} "," CourseController","getCourses()");
         List<CourseDTO> list = courseService.getCourses();
+       // throw new RuntimeException("My Exception");
       //  logger.info("After -> Controller: {} - Method : {} - Output : {}"," CourseController","getCourses()", list.toString());
         return list;
     }
